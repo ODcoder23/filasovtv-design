@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html><head>
+<script src="assets/0ad70c4a-38c1-4551-81d6-5588fb622262.js"></script>
+<script src="assets/89ad5ea3-3006-43a2-a3ff-32f0216e1f1f.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="assets/e8e83ec8-53a2-46df-85f1-4cd84435df01.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>window.__resources = {"us1518199266791-5375a83190b7":"assets/8bc98cca-f4f6-4f33-9db5-bb5000e8b68b.jpg","us1493238792000-8113da705763":"assets/c66a0aeb-3f05-4405-8460-90e4286d7698.jpg","us1465495976277-4387d4b0b4c6":"assets/37f25737-d3cc-4dab-8caf-00715240027a.jpg","us1513106580091-1d82408b8cd6":"assets/2160b7dd-549d-448b-8917-4baeca276859.jpg","us1508739773434-c26b3d09e071":"assets/bd78b093-51eb-435a-a2d8-bfac726a8787.jpg","us1524504388940-b1c1722653e1":"assets/772ca112-370c-4a80-9a2b-f1871bee8c63.jpg","us1519003722824-194d4455a60c":"assets/06ae1ce6-7148-4442-8911-d19d2fe7231f.jpg","up1":"assets/f2f62875-46c1-4cb1-9078-8167cdaf44f0.jpg","us1488426862026-3ee34a7d66df":"assets/9525b1bc-98f4-4090-8471-da3e814217f5.jpg","up3":"assets/57084ac0-42c4-470b-81a4-aeee8e15dcfd.jpg","us1509316785289-025f5b846b35":"assets/bcaa38e0-f25b-4b75-b9cc-d5083a7408e1.jpg","us1506794778202-cad84cf45f1d":"assets/1820bb3e-3eeb-4701-8b37-833e243c7783.jpg","up4":"assets/8a50dd00-0bbb-4cc5-913a-dd843a2c5fc7.jpg","us1451187580459-43490279c0fa":"assets/594fced8-52ea-4e37-a21c-06349c1e2b36.jpg","us1503376780353-7e6692767b70":"assets/a9f834a7-b028-4a70-9640-24b2a1b730ef.jpg","up0":"assets/b3963a92-c029-4702-866f-8bcc55ca5188.jpg","us1532274402911-5a369e4c4bb5":"assets/0f4c256b-1547-44eb-a710-ab683e5b5ab7.jpg","up5":"assets/e8fb9e74-ed7b-4799-a7df-fbed6ecdb9da.jpg","us1529626455594-4ff0802cfb7e":"assets/30956dde-122e-4526-ac7f-31f60f882ac8.jpg","us1544005313-94ddf0286df2":"assets/53fb69e3-a3a4-4883-b283-a407a53157a9.jpg","us1474487548417-781cb71495f3":"assets/a9e87590-ba5c-4078-96fe-cf7da39f60d0.jpg","us1522383225653-ed111181a951":"assets/f78aa6f2-f159-4bf9-ba0e-35a45289062c.jpg","us1473580044384-7ba9967e16a0":"assets/f0d495b8-cf97-4bed-a355-c2de7a36f4fe.jpg","us1514565131-fce0801e5785":"assets/eaa2524b-2350-45df-868f-21429ac115c5.jpg","up2":"assets/93a35078-e566-4919-bc75-51f65537f394.jpg","us1518709268805-4e9042af9f23":"assets/563fed39-82b7-40f6-b99a-35479a57f81e.jpg","us1529333166437-7750a6dd5a70":"assets/c28f4942-caee-4fd0-b498-fbbe93dff4dd.jpg","us1462331940025-496dfbfc7564":"assets/d9af4fbf-8fa6-47d0-9d12-29829895bc6d.jpg"};</script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>/* cyrillic-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fe8fcc62-923f-488e-9497-773b89448204.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/966600b0-c3ac-49db-a2f3-55bccc52773e.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* math */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/099fdfe4-d4e7-4e47-b245-75335393daef.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/22197fe1-5151-4765-942f-cf9ea085163b.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/7940a8e9-4e53-4baa-b11f-da77693d7c47.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/5a7ab723-3310-42e2-9e71-cf791cc4f336.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/5c1b9488-011b-4752-a448-a93824e44238.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fe8fcc62-923f-488e-9497-773b89448204.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/966600b0-c3ac-49db-a2f3-55bccc52773e.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* math */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/099fdfe4-d4e7-4e47-b245-75335393daef.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/22197fe1-5151-4765-942f-cf9ea085163b.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/7940a8e9-4e53-4baa-b11f-da77693d7c47.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/5a7ab723-3310-42e2-9e71-cf791cc4f336.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/5c1b9488-011b-4752-a448-a93824e44238.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/fe8fcc62-923f-488e-9497-773b89448204.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/966600b0-c3ac-49db-a2f3-55bccc52773e.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* math */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/099fdfe4-d4e7-4e47-b245-75335393daef.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/22197fe1-5151-4765-942f-cf9ea085163b.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/7940a8e9-4e53-4baa-b11f-da77693d7c47.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/5a7ab723-3310-42e2-9e71-cf791cc4f336.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/5c1b9488-011b-4752-a448-a93824e44238.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fe8fcc62-923f-488e-9497-773b89448204.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/966600b0-c3ac-49db-a2f3-55bccc52773e.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* math */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/099fdfe4-d4e7-4e47-b245-75335393daef.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/22197fe1-5151-4765-942f-cf9ea085163b.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/7940a8e9-4e53-4baa-b11f-da77693d7c47.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/5a7ab723-3310-42e2-9e71-cf791cc4f336.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/5c1b9488-011b-4752-a448-a93824e44238.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/fe8fcc62-923f-488e-9497-773b89448204.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/966600b0-c3ac-49db-a2f3-55bccc52773e.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* math */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/099fdfe4-d4e7-4e47-b245-75335393daef.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/22197fe1-5151-4765-942f-cf9ea085163b.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/7940a8e9-4e53-4baa-b11f-da77693d7c47.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/5a7ab723-3310-42e2-9e71-cf791cc4f336.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("assets/5c1b9488-011b-4752-a448-a93824e44238.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+html,body{margin:0;background:var(--c0, #050506);color:var(--tx, #F5F3F1);font-family:'Onest',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;overscroll-behavior:none}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;scrollbar-width:none}
+*::-webkit-scrollbar{display:none}
+a{color:#E5262D;text-decoration:none}a:hover{color:var(--rt, #FF5A5F)}
+input,textarea,button{font-family:inherit}
+input::placeholder,textarea::placeholder{color:var(--m3, #6F6B67)}
+button{-webkit-user-select:none;user-select:none}
+@keyframes ftvPiece{0%{opacity:0;transform:translate(var(--fx),var(--fy)) scale(.86)}50%{opacity:1}100%{opacity:1;transform:translate(0,0) scale(1)}}
+@keyframes ftvSweep{0%{transform:translateX(-160px) skewX(-20deg)}100%{transform:translateX(380px) skewX(-20deg)}}
+@keyframes ftvGlow{0%{opacity:0;transform:scale(.4)}45%{opacity:1;transform:scale(1.08)}100%{opacity:.5;transform:scale(1)}}
+@keyframes ftvSettle{0%{transform:scale(1.2) rotate(-8deg)}55%{transform:scale(1) rotate(0)}100%{transform:scale(1)}}
+@keyframes ftvLetter{0%{opacity:0;transform:translateY(22px);filter:blur(8px)}100%{opacity:1;transform:none;filter:blur(0)}}
+@keyframes ftvFadeUp{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+@keyframes ftvBar{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+@keyframes ftvStreak{0%{transform:translateX(-120%);opacity:0}25%{opacity:1}100%{transform:translateX(260%);opacity:0}}
+@keyframes ftvOut{0%{opacity:1}100%{opacity:0;transform:scale(1.08)}}
+@keyframes ftvFade{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+@keyframes ftvShimmer{0%{background-position:-240px 0}100%{background-position:240px 0}}
+@keyframes ftvPop{0%{transform:scale(.3);opacity:0}60%{transform:scale(1.1);opacity:1}100%{transform:scale(1)}}
+</style>
+</helmet>
+<div ref="{{ rootRef }}" style="position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:var(--c0, #050506); color:var(--tx, #F5F3F1)">
+<div style="position:relative; width:100%; max-width:430px; height:100%; max-height:{{ frameMaxH }}; background:var(--bg, #0C0C0D); overflow:hidden; display:flex; flex-direction:column; border-radius:{{ frameRadius }}; box-shadow:{{ frameShadow }}">
+
+<sc-if value="{{ showTopBar }}" hint-placeholder-val="{{ true }}">
+<div style="position:relative; z-index:40; height:52px; flex:none; display:flex; align-items:center; justify-content:space-between; padding:0 10px; background:var(--bg, #0C0C0D); border-bottom:1px solid rgba(var(--ln, 255,255,255),0.05)">
+  <button sc-camel-on-click="{{ onTopLeft }}" style="display:flex; align-items:center; gap:4px; height:34px; padding:0 12px 0 8px; border:none; border-radius:17px; background:var(--s2, #18181B); color:var(--tx, #F5F3F1); font-size:14px; font-weight:600; cursor:pointer; transition:transform .18s" style-active="transform:scale(0.95)">{{ topLeftIcon }}<span>{{ topLeftLabel }}</span></button>
+  <div style="position:absolute; left:50%; transform:translateX(-50%); display:flex; align-items:center; gap:8px; font-size:15px; font-weight:700; letter-spacing:-0.01em">{{ logoTiny }}<span>FilasofTV</span></div>
+  <div style="display:flex; gap:6px">
+    <button style="width:34px; height:34px; border:none; border-radius:17px; background:var(--s2, #18181B); color:var(--t3, #D9D5D1); display:grid; place-items:center; cursor:pointer">{{ icChevD }}</button>
+    <button style="width:34px; height:34px; border:none; border-radius:17px; background:var(--s2, #18181B); color:var(--t3, #D9D5D1); display:grid; place-items:center; cursor:pointer">{{ icDots }}</button>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ acctErr }}" hint-placeholder-val="{{ false }}">
+<div style="position:relative; z-index:39; flex:none; display:flex; align-items:center; gap:10px; padding:10px 12px 10px 16px; background:rgba(229,38,45,0.12); border-bottom:1px solid rgba(229,38,45,0.25)">
+  <span style="color:var(--rt, #FF5A5F)">{{ icAlert }}</span>
+  <div style="flex:1; font-size:13.5px; font-weight:500">Hisob maʼlumotlari yuklanmadi</div>
+  <button sc-camel-on-click="{{ retryAcct }}" style="height:30px; padding:0 14px; border:none; border-radius:15px; background:#E5262D; color:#fff; font-size:13px; font-weight:600; cursor:pointer; opacity:{{ acctBtnO }}">{{ acctBtnLabel }}</button>
+</div>
+</sc-if>
+
+<div ref="{{ mainRef }}" style="position:relative; flex:1; min-height:0; overflow:hidden">
+<div ref="{{ scrollRef }}" sc-camel-on-scroll="{{ onScroll }}" sc-camel-on-touch-start="{{ edgeStart }}" sc-camel-on-touch-move="{{ edgeMove }}" sc-camel-on-touch-end="{{ edgeEnd }}" style="position:absolute; inset:0; overflow-y:auto; overflow-x:hidden; background:var(--bg, #0C0C0D)">
+
+<!-- ASOSIY -->
+<sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+<div style="padding:14px 0 120px">
+  <div style="display:flex; align-items:center; gap:12px; padding:0 16px">
+    <button sc-camel-on-click="{{ goProfile }}" style="width:42px; height:42px; flex:none; border-radius:50%; border:none; padding:0; background:linear-gradient(145deg,#E5262D,#8E1418); color:#fff; font-size:17px; font-weight:700; cursor:pointer">{{ initial }}</button>
+    <div style="flex:1; min-width:0">
+      <div style="font-size:12.5px; color:var(--m1, #A19D99)">Xush kelibsiz</div>
+      <div style="font-size:16px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ firstName }}</div>
+    </div>
+    <button sc-camel-on-click="{{ goBalance }}" style="flex:none; display:flex; align-items:center; gap:6px; height:36px; padding:0 12px 0 9px; border-radius:18px; border:1px solid rgba(var(--ln, 255,255,255),0.07); background:var(--s2, #17171A); color:var(--tx, #F5F3F1); font-size:13.5px; font-weight:600; font-variant-numeric:tabular-nums; cursor:pointer; white-space:nowrap; transition:transform .18s" style-active="transform:scale(0.95)">{{ icWallet }}<span>{{ balanceFmt }}</span></button>
+  </div>
+
+  <div style="margin:18px 16px 0; border-radius:26px; overflow:hidden; box-shadow:0 30px 60px -30px rgba(0,0,0,0.8)">
+    <div ref="{{ heroRef }}" sc-camel-on-scroll="{{ onHeroScroll }}" sc-camel-on-touch-start="{{ pauseHero }}" sc-camel-on-pointer-down="{{ pauseHero }}" style="display:flex; overflow-x:auto; scroll-snap-type:x mandatory; overscroll-behavior-x:contain">
+      <sc-for list="{{ hero }}" as="h" hint-placeholder-count="3">
+        <div style="flex:0 0 100%; scroll-snap-align:center; scroll-snap-stop:always; position:relative; height:468px; background:{{ h.art }}; overflow:hidden">
+          <div style="position:absolute; top:24px; left:22px; right:22px; font-size:60px; font-weight:800; letter-spacing:-0.05em; line-height:0.9; text-transform:uppercase; color:rgba(255,255,255,0.09)">{{ h.title }}</div>
+          <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(12, 12, 13, 0) 28%, rgba(12, 12, 13, 0.5) 60%, rgba(12, 12, 13, 0.97) 100%)"></div>
+          <div style="position:absolute; left:20px; right:20px; bottom:20px; display:flex; flex-direction:column; gap:12px; color:#fff">
+            <div style="display:flex; align-items:center; gap:8px; font-size:12.5px; font-weight:600; color:rgba(255,255,255,0.85)">
+              <span style="padding:4px 8px; border-radius:7px; background:rgba(255, 255, 255, 0.14); font-size:10.5px; font-weight:700; letter-spacing:0.1em; color:#fff">{{ h.typeU }}</span>
+              <span style="display:flex; align-items:center; gap:4px">{{ h.star }}{{ h.rating }}</span>
+              <span style="opacity:0.45">·</span>
+              <span>{{ h.year }}</span>
+            </div>
+            <div style="font-size:33px; font-weight:800; letter-spacing:-0.035em; line-height:1.04; text-wrap:balance">{{ h.title }}</div>
+            <div style="display:flex; gap:10px; margin-top:4px">
+              <button sc-camel-on-click="{{ h.open }}" style="flex:1; height:50px; border:none; border-radius:15px; background:#E5262D; color:#fff; font-size:15.5px; font-weight:700; display:flex; align-items:center; justify-content:center; gap:8px; cursor:pointer; box-shadow:0 10px 24px -8px rgba(229,38,45,0.7); transition:transform .18s" style-active="transform:scale(0.97)">{{ h.playIc }}Tomosha qilish</button>
+              <button sc-camel-on-click="{{ h.save }}" style="height:50px; padding:0 16px; border:1px solid rgba(255, 255, 255, 0.16); border-radius:15px; background:rgba(255, 255, 255, 0.1); backdrop-filter:blur(16px); color:#fff; font-size:14.5px; font-weight:600; display:flex; align-items:center; gap:7px; cursor:pointer; transition:transform .18s" style-active="transform:scale(0.95)">{{ h.saveIc }}<span>{{ h.saveLabel }}</span></button>
+            </div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+  <div style="display:flex; justify-content:center; gap:2px; margin-top:8px">
+    <sc-for list="{{ heroDots }}" as="d" hint-placeholder-count="3">
+      <button sc-camel-on-click="{{ d.go }}" style="padding:8px 3px; border:none; background:transparent; cursor:pointer"><div style="height:6px; width:{{ d.w }}; border-radius:3px; background:{{ d.bg }}; transition:width .5s cubic-bezier(.32,.72,0,1), background .3s"></div></button>
+    </sc-for>
+  </div>
+
+  <sc-if value="{{ noSub }}" hint-placeholder-val="{{ true }}">
+  <button sc-camel-on-click="{{ goPlans }}" style="width:calc(100% - 32px); margin:14px 16px 0; padding:16px; border-radius:20px; background:linear-gradient(120deg, rgba(229,38,45,0.22), rgba(229,38,45,0.05)); border:1px solid rgba(229,38,45,0.28); display:flex; align-items:center; gap:14px; color:var(--tx, #F5F3F1); text-align:left; cursor:pointer; transition:transform .2s" style-active="transform:scale(0.98)">
+    <div style="width:46px; height:46px; flex:none; border-radius:14px; background:#E5262D; display:grid; place-items:center">{{ logoWhite }}</div>
+    <div style="flex:1; min-width:0">
+      <div style="font-size:15.5px; font-weight:700">Premium bilan cheksiz tomosha</div>
+      <div style="font-size:13px; color:var(--t2, #C9C4BF); margin-top:3px">Barcha kontent — 27 000 soʻmdan</div>
+    </div>
+    <span style="color:var(--rt, #FF5A5F)">{{ icChevR }}</span>
+  </button>
+  </sc-if>
+
+  <sc-if value="{{ showCont }}" hint-placeholder-val="{{ true }}">
+  <div style="margin-top:30px">
+    <div style="padding:0 16px; font-size:19px; font-weight:700; letter-spacing:-0.015em">Davom ettirish</div>
+    <div style="display:flex; gap:12px; overflow-x:auto; padding:12px 16px 2px; scroll-snap-type:x mandatory; scroll-padding:0 16px">
+      <sc-for list="{{ cont }}" as="w" hint-placeholder-count="2">
+        <div sc-camel-on-click="{{ w.open }}" style="flex:0 0 232px; scroll-snap-align:start; cursor:pointer; transition:transform .2s" style-active="transform:scale(0.97)">
+          <div style="position:relative; aspect-ratio:16/9; border-radius:14px; overflow:hidden; background:{{ w.frame }}">
+            <div style="position:absolute; inset:0; display:grid; place-items:center"><div style="width:42px; height:42px; border-radius:50%; background:rgba(0,0,0,0.45); backdrop-filter:blur(12px); display:grid; place-items:center; padding-left:2px">{{ w.playIc }}</div></div>
+            <div style="position:absolute; left:10px; right:10px; bottom:10px; height:3px; border-radius:2px; background:rgba(255, 255, 255, 0.25); overflow:hidden"><div style="height:100%; width:{{ w.pct }}; background:#E5262D"></div></div>
+          </div>
+          <div style="margin-top:9px; font-size:14px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ w.title }}</div>
+          <div style="margin-top:2px; font-size:12.5px; color:var(--m1, #A19D99)">{{ w.sub }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ catOk }}" hint-placeholder-val="{{ true }}">
+  <sc-for list="{{ shelves }}" as="sh" hint-placeholder-count="3">
+    <div style="margin-top:30px">
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:0 16px">
+        <div style="font-size:19px; font-weight:700; letter-spacing:-0.015em">{{ sh.title }}</div>
+        <button sc-camel-on-click="{{ sh.all }}" style="display:flex; align-items:center; gap:2px; border:none; background:transparent; color:var(--m1, #A19D99); font-size:14px; font-weight:600; padding:6px 0; cursor:pointer">Barchasi{{ icChevRsm }}</button>
+      </div>
+      <div style="display:flex; gap:12px; overflow-x:auto; padding:10px 16px 2px; scroll-snap-type:x mandatory; scroll-padding:0 16px">
+        <sc-for list="{{ sh.items }}" as="c" hint-placeholder-count="4">
+          <div sc-camel-on-click="{{ c.open }}" style="flex:0 0 128px; scroll-snap-align:start; cursor:pointer; transition:transform .2s" style-active="transform:scale(0.96)">
+            <div style="position:relative; aspect-ratio:2/3; border-radius:13px; overflow:hidden; background:{{ c.art }}; box-shadow:inset 0 0 0 1px rgba(var(--ln, 255,255,255),0.06)">
+              <div style="position:absolute; inset:0; background:linear-gradient(180deg, transparent 45%, rgba(0,0,0,0.6))"></div>
+              <div style="position:absolute; left:10px; right:10px; bottom:10px; font-size:10.5px; font-weight:800; letter-spacing:0.1em; line-height:1.15; text-transform:uppercase; color:rgba(255,255,255,0.92)">{{ c.title }}</div>
+              <div style="position:absolute; top:7px; left:7px; display:flex; flex-direction:column; align-items:flex-start; gap:4px">
+                <sc-if value="{{ c.premium }}"><span style="padding:3px 6px; border-radius:6px; background:#E5262D; color:#fff; font-size:8.5px; font-weight:800; letter-spacing:0.07em">PREMIUM</span></sc-if>
+                <sc-if value="{{ c.isNew }}"><span style="padding:3px 6px; border-radius:6px; background:var(--tx, #F5F3F1); color:var(--bg, #0C0C0D); font-size:8.5px; font-weight:800; letter-spacing:0.07em">YANGI</span></sc-if>
+              </div>
+              <div style="position:absolute; top:7px; right:7px; display:flex; align-items:center; gap:3px; padding:3px 6px; border-radius:6px; background:rgba(0,0,0,0.5); backdrop-filter:blur(8px); font-size:10.5px; font-weight:700; color:#fff">{{ c.star }}{{ c.rating }}</div>
+            </div>
+            <div style="margin-top:8px; font-size:13.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ c.title }}</div>
+            <div style="margin-top:1px; font-size:12px; color:var(--m1, #A19D99)">{{ c.meta }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </sc-for>
+  </sc-if>
+</div>
+</sc-if>
+
+<!-- QIDIRUV -->
+<sc-if value="{{ isSearch }}" hint-placeholder-val="{{ false }}">
+<div style="padding:8px 0 120px">
+  <h1 style="margin:0; padding:6px 16px 0; font-size:32px; font-weight:800; letter-spacing:-0.035em">Qidiruv</h1>
+  <div style="margin:14px 16px 0; height:46px; display:flex; align-items:center; gap:10px; padding:0 12px; background:var(--s2, #18181B); border-radius:14px; border:1px solid rgba(var(--ln, 255,255,255),0.06)">
+    <span style="color:var(--m2, #8E8A86)">{{ icSearch }}</span>
+    <input value="{{ q }}" sc-camel-on-change="{{ onQ }}" sc-camel-on-focus="{{ kbdOn }}" sc-camel-on-blur="{{ kbdOff }}" placeholder="Film, anime yoki serial" style="flex:1; min-width:0; height:100%; background:transparent; border:none; outline:none; color:var(--tx, #F5F3F1); font-size:16px; padding:0">
+    <sc-if value="{{ hasQ }}"><button sc-camel-on-click="{{ clearQ }}" style="width:22px; height:22px; flex:none; border-radius:50%; border:none; padding:0; background:var(--s6, #4A4A4F); color:var(--bg, #0C0C0D); display:grid; place-items:center; cursor:pointer">{{ icCloseXs }}</button></sc-if>
+  </div>
+  <div style="display:flex; gap:8px; overflow-x:auto; padding:14px 16px 0">
+    <sc-for list="{{ cats }}" as="k" hint-placeholder-count="5">
+      <button sc-camel-on-click="{{ k.go }}" style="flex:none; height:36px; padding:0 16px; border-radius:18px; border:none; background:{{ k.bg }}; color:{{ k.fg }}; font-size:14px; font-weight:600; cursor:pointer; transition:background .25s, color .25s, transform .18s" style-active="transform:scale(0.95)">{{ k.label }}</button>
+    </sc-for>
+  </div>
+  <div style="display:flex; gap:8px; overflow-x:auto; padding:10px 16px 0">
+    <sc-for list="{{ filters }}" as="f" hint-placeholder-count="4">
+      <button sc-camel-on-click="{{ f.go }}" style="flex:none; height:32px; padding:0 14px; border-radius:16px; border:1px solid {{ f.bd }}; background:{{ f.bg }}; color:{{ f.fg }}; font-size:13px; font-weight:600; cursor:pointer; transition:all .25s" style-active="transform:scale(0.95)">{{ f.label }}</button>
+    </sc-for>
+  </div>
+  <div style="display:flex; align-items:center; justify-content:space-between; padding:22px 16px 12px; min-height:58px">
+    <div style="font-size:13.5px; color:var(--m1, #A19D99); font-weight:500">{{ resultLabel }}</div>
+    <sc-if value="{{ canClear }}"><button sc-camel-on-click="{{ clearAll }}" style="border:none; background:transparent; color:var(--rt, #FF5A5F); font-size:13.5px; font-weight:600; padding:4px 0; cursor:pointer">Tozalash</button></sc-if>
+  </div>
+  <sc-if value="{{ sLoading }}">
+    <div style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px 10px; padding:0 16px">
+      <sc-for list="{{ skel }}" as="x"><div><div style="aspect-ratio:2/3; border-radius:13px; background:linear-gradient(90deg,var(--s1, #161618) 0%,#222225 50%,var(--s1, #161618) 100%); background-size:480px 100%; animation:ftvShimmer 1.3s linear infinite"></div><div style="margin-top:9px; height:11px; width:80%; border-radius:6px; background:var(--s2, #18181B)"></div><div style="margin-top:6px; height:9px; width:50%; border-radius:5px; background:var(--s1, #161618)"></div></div></sc-for>
+    </div>
+  </sc-if>
+  <sc-if value="{{ sError }}">
+    <div style="padding:40px 32px; display:flex; flex-direction:column; align-items:center; text-align:center; gap:8px">
+      <div style="width:56px; height:56px; border-radius:18px; background:var(--s2, #18181B); display:grid; place-items:center; color:var(--rt, #FF5A5F); margin-bottom:8px">{{ icAlertLg }}</div>
+      <div style="font-size:18px; font-weight:700">Katalog yuklanmadi</div>
+      <div style="font-size:14px; color:var(--m1, #A19D99); line-height:1.5; max-width:260px">Internet aloqasini tekshirib, qayta urinib koʻring.</div>
+      <button sc-camel-on-click="{{ retryCatalog }}" style="margin-top:14px; height:46px; padding:0 22px; border:none; border-radius:14px; background:var(--tx, #F5F3F1); color:var(--bg, #0C0C0D); font-size:15px; font-weight:700; cursor:pointer">Qayta urinish</button>
+    </div>
+  </sc-if>
+  <sc-if value="{{ sEmpty }}">
+    <div style="padding:40px 32px; display:flex; flex-direction:column; align-items:center; text-align:center; gap:8px">
+      <div style="width:56px; height:56px; border-radius:18px; background:var(--s2, #18181B); display:grid; place-items:center; color:var(--m1, #A19D99); margin-bottom:8px">{{ icSearchLg }}</div>
+      <div style="font-size:18px; font-weight:700">Hech narsa topilmadi</div>
+      <div style="font-size:14px; color:var(--m1, #A19D99); line-height:1.5; max-width:260px">Boshqa nom yoki filtr bilan urinib koʻring.</div>
+      <button sc-camel-on-click="{{ clearAll }}" style="margin-top:14px; height:46px; padding:0 22px; border:none; border-radius:14px; background:var(--tx, #F5F3F1); color:var(--bg, #0C0C0D); font-size:15px; font-weight:700; cursor:pointer">Filtrlarni tozalash</button>
+    </div>
+  </sc-if>
+  <sc-if value="{{ sHas }}">
+    <div style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px 10px; padding:0 16px; animation:ftvFade .35s ease both">
+      <sc-for list="{{ results }}" as="c" hint-placeholder-count="6">
+        <div sc-camel-on-click="{{ c.open }}" style="min-width:0; cursor:pointer; transition:transform .2s" style-active="transform:scale(0.96)">
+          <div style="position:relative; aspect-ratio:2/3; border-radius:13px; overflow:hidden; background:{{ c.art }}; box-shadow:inset 0 0 0 1px rgba(var(--ln, 255,255,255),0.06)">
+            <div style="position:absolute; inset:0; background:linear-gradient(180deg, transparent 45%, rgba(0,0,0,0.6))"></div>
+            <div style="position:absolute; left:8px; right:8px; bottom:8px; font-size:9.5px; font-weight:800; letter-spacing:0.1em; line-height:1.15; text-transform:uppercase; color:rgba(255,255,255,0.92)">{{ c.title }}</div>
+            <div style="position:absolute; top:6px; left:6px; display:flex; flex-direction:column; align-items:flex-start; gap:4px">
+              <sc-if value="{{ c.premium }}"><span style="padding:3px 5px; border-radius:5px; background:#E5262D; color:#fff; font-size:8px; font-weight:800; letter-spacing:0.07em">PREMIUM</span></sc-if>
+              <sc-if value="{{ c.isNew }}"><span style="padding:3px 5px; border-radius:5px; background:var(--tx, #F5F3F1); color:var(--bg, #0C0C0D); font-size:8px; font-weight:800; letter-spacing:0.07em">YANGI</span></sc-if>
+            </div>
+            <div style="position:absolute; top:6px; right:6px; display:flex; align-items:center; gap:3px; padding:3px 5px; border-radius:5px; background:rgba(0,0,0,0.5); font-size:10px; font-weight:700; color:#fff">{{ c.star }}{{ c.rating }}</div>
+          </div>
+          <div style="margin-top:8px; font-size:13px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ c.title }}</div>
+          <div style="margin-top:1px; font-size:11.5px; color:var(--m1, #A19D99)">{{ c.meta }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </sc-if>
+</div>
+</sc-if>
+
+<!-- KONTENT -->
+<sc-if value="{{ isContent }}" hint-placeholder-val="{{ false }}">
+<div style="padding-bottom:130px">
+  <div style="position:relative; height:440px; background:{{ ct.art }}; overflow:hidden">
+    <div style="position:absolute; top:60px; left:20px; right:20px; font-size:72px; font-weight:800; letter-spacing:-0.05em; line-height:0.88; text-transform:uppercase; color:rgba(var(--ln, 255,255,255),0.08)">{{ ct.title }}</div>
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(var(--bgc, 12,12,13),0.25) 0%, rgba(var(--bgc, 12,12,13),0) 25%, rgba(var(--bgc, 12,12,13),0.6) 70%, var(--bg, #0C0C0D) 100%)"></div>
+    <div style="position:absolute; top:16px; left:16px; display:flex; gap:6px">
+      <span style="padding:5px 9px; border-radius:8px; background:{{ ct.accessBg }}; color:{{ ct.accessFg }}; font-size:10.5px; font-weight:800; letter-spacing:0.1em">{{ ct.access }}</span>
+      <span style="padding:5px 9px; border-radius:8px; background:rgba(0,0,0,0.4); backdrop-filter:blur(10px); color:#fff; font-size:10.5px; font-weight:700; letter-spacing:0.1em">{{ ct.typeU }}</span>
+    </div>
+  </div>
+  <div style="position:relative; margin-top:-64px; padding:0 16px">
+    <h1 style="margin:0; font-size:31px; font-weight:800; letter-spacing:-0.035em; line-height:1.05; text-wrap:balance">{{ ct.title }}</h1>
+    <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:12px; font-size:13.5px; color:var(--t2, #C9C4BF); font-weight:500">
+      <span style="display:flex; align-items:center; gap:4px; color:var(--tx, #F5F3F1); font-weight:700">{{ ct.star }}{{ ct.rating }}</span>
+      <span style="opacity:0.4">·</span><span>{{ ct.year }}</span>
+      <span style="opacity:0.4">·</span><span style="padding:1px 6px; border-radius:5px; border:1px solid rgba(var(--ln, 255,255,255),0.25); font-size:12px; font-weight:700">{{ ct.age }}</span>
+      <span style="opacity:0.4">·</span><span>{{ ct.volume }}</span>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:14px">
+      <sc-for list="{{ ct.genres }}" as="g"><span style="padding:6px 11px; border-radius:10px; background:var(--s2, #18181B); border:1px solid rgba(var(--ln, 255,255,255),0.06); font-size:12.5px; font-weight:500; color:var(--t3, #D9D5D1)">{{ g.g }}</span></sc-for>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin-top:20px">
+      <button sc-camel-on-click="{{ ct.save }}" style="height:68px; border:none; border-radius:16px; background:var(--s1, #161618); color:{{ ct.saveColor }}; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; font-size:12.5px; font-weight:600; cursor:pointer; transition:transform .18s, color .25s" style-active="transform:scale(0.95)">{{ ct.saveIc }}<span>{{ ct.saveLabel }}</span></button>
+      <button sc-camel-on-click="{{ ct.donate }}" style="height:68px; border:none; border-radius:16px; background:var(--s1, #161618); color:var(--tx, #F5F3F1); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; font-size:12.5px; font-weight:600; cursor:pointer; transition:transform .18s" style-active="transform:scale(0.95)">{{ icHeart }}<span>Donat</span></button>
+      <button sc-camel-on-click="{{ ct.share }}" style="height:68px; border:none; border-radius:16px; background:var(--s1, #161618); color:var(--tx, #F5F3F1); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; font-size:12.5px; font-weight:600; cursor:pointer; transition:transform .18s" style-active="transform:scale(0.95)">{{ icShare }}<span>Ulashish</span></button>
+    </div>
+  </div>
+
+  <div style="margin-top:30px">
+    <div style="display:flex; align-items:baseline; gap:8px; padding:0 16px">
+      <div style="font-size:19px; font-weight:700; letter-spacing:-0.015em">{{ ct.epsTitle }}</div>
+      <div style="font-size:14px; color:var(--m1, #A19D99); font-weight:500">{{ ct.epsCount }}</div>
+    </div>
+    <div ref="{{ epsRef }}" style="display:flex; gap:10px; overflow-x:auto; padding:12px 16px 4px; scroll-behavior:smooth">
+      <sc-for list="{{ ct.eps }}" as="e" hint-placeholder-count="3">
+        <div sc-camel-on-click="{{ e.go }}" style="flex:0 0 156px; cursor:pointer; transition:transform .2s" style-active="transform:scale(0.96)">
+          <div style="position:relative; aspect-ratio:16/9; border-radius:12px; overflow:hidden; background:{{ e.frame }}; box-shadow:{{ e.ring }}; transition:box-shadow .25s">
+            <sc-if value="{{ e.watched }}"><div style="position:absolute; top:6px; left:6px; width:20px; height:20px; border-radius:50%; background:rgba(0,0,0,0.55); display:grid; place-items:center">{{ e.checkIc }}</div></sc-if>
+            <div style="position:absolute; right:6px; bottom:8px; padding:2px 6px; border-radius:5px; background:rgba(0,0,0,0.6); color:#fff; font-size:10.5px; font-weight:600; font-variant-numeric:tabular-nums">{{ e.dur }}</div>
+            <sc-if value="{{ e.hasProg }}"><div style="position:absolute; left:0; right:0; bottom:0; height:3px; background:rgba(255, 255, 255, 0.2)"><div style="height:100%; width:{{ e.pct }}; background:#E5262D"></div></div></sc-if>
+          </div>
+          <div style="margin-top:8px; font-size:13.5px; font-weight:600; color:{{ e.labelColor }}; transition:color .25s">{{ e.label }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+
+  <div style="margin-top:28px">
+    <div style="padding:0 16px; font-size:19px; font-weight:700; letter-spacing:-0.015em">Kadrlar</div>
+    <div style="margin:12px 16px 0; border-radius:16px; overflow:hidden">
+      <div ref="{{ framesRef }}" sc-camel-on-scroll="{{ onFramesScroll }}" style="display:flex; overflow-x:auto; scroll-snap-type:x mandatory">
+        <sc-for list="{{ ct.frames }}" as="fr" hint-placeholder-count="3"><div style="flex:0 0 100%; scroll-snap-align:center; aspect-ratio:16/9; background:{{ fr.art }}"></div></sc-for>
+      </div>
+    </div>
+    <div style="display:flex; justify-content:center; gap:2px; margin-top:6px">
+      <sc-for list="{{ frameDots }}" as="d"><button sc-camel-on-click="{{ d.go }}" style="padding:8px 3px; border:none; background:transparent; cursor:pointer"><div style="height:6px; width:{{ d.w }}; border-radius:3px; background:{{ d.bg }}; transition:width .5s cubic-bezier(.32,.72,0,1), background .3s"></div></button></sc-for>
+    </div>
+  </div>
+
+  <div style="margin-top:22px; padding:0 16px">
+    <div style="font-size:19px; font-weight:700; letter-spacing:-0.015em">Tavsif</div>
+    <div style="position:relative; margin-top:10px; max-height:{{ ct.descMaxH }}; overflow:hidden; transition:max-height .55s cubic-bezier(.32,.72,0,1)">
+      <p style="margin:0; font-size:14.5px; line-height:1.6; color:var(--t4, #CFCAC5); text-wrap:pretty">{{ ct.desc }}</p>
+      <div style="position:absolute; left:0; right:0; bottom:0; height:24px; background:linear-gradient(180deg, rgba(var(--bgc, 12,12,13),0), var(--bg, #0C0C0D)); opacity:{{ ct.descFadeO }}; transition:opacity .3s"></div>
+    </div>
+    <button sc-camel-on-click="{{ ct.toggleDesc }}" style="margin-top:6px; border:none; background:transparent; padding:4px 0; color:var(--rt, #FF5A5F); font-size:14px; font-weight:600; cursor:pointer">{{ ct.descBtn }}</button>
+  </div>
+
+  <div style="margin:20px 16px 0; border-radius:18px; background:var(--s1, #161618); border:1px solid rgba(var(--ln, 255,255,255),0.06); padding:4px 16px">
+    <sc-for list="{{ ct.info }}" as="r" hint-placeholder-count="5">
+      <div style="display:flex; justify-content:space-between; gap:16px; padding:13px 0; border-top:{{ r.bt }}; font-size:14px">
+        <span style="color:var(--m1, #A19D99)">{{ r.k }}</span><span style="font-weight:600; text-align:right">{{ r.v }}</span>
+      </div>
+    </sc-for>
+  </div>
+</div>
+</sc-if>
+
+<!-- PREMIUM -->
+<sc-if value="{{ isPremium }}" hint-placeholder-val="{{ false }}">
+<div style="padding:12px 0 {{ premPadB }}">
+  <div style="padding:0 16px">
+    <div style="display:flex; align-items:center; gap:8px; font-size:11.5px; font-weight:700; letter-spacing:0.22em; color:var(--rt, #FF5A5F)">{{ logoTinyRed }}FILASOVTV CLUB</div>
+    <h1 style="margin:6px 0 0; font-size:32px; font-weight:800; letter-spacing:-0.035em">Premium</h1>
+  </div>
+  <div style="position:relative; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); margin:16px 16px 0; padding:3px; background:var(--s2, #18181B); border-radius:13px">
+    <div style="position:absolute; top:3px; bottom:3px; left:3px; width:calc((100% - 6px) / 4); transform:translateX({{ premThumbX }}); transition:transform .5s cubic-bezier(.32,.72,0,1); background:var(--thumb, #2C2C30); border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.35)"></div>
+    <sc-for list="{{ premTabs }}" as="t" hint-placeholder-count="4"><button sc-camel-on-click="{{ t.go }}" style="position:relative; height:36px; border:none; background:transparent; color:{{ t.color }}; font-size:13.5px; font-weight:600; cursor:pointer; transition:color .3s">{{ t.label }}</button></sc-for>
+  </div>
+
+  <sc-if value="{{ isPlans }}" hint-placeholder-val="{{ true }}">
+  <div style="animation:ftvFade .35s ease both">
+    <sc-if value="{{ hasSub }}">
+    <div style="margin:18px 16px 0; padding:14px 16px; border-radius:16px; background:rgba(52,199,123,0.1); border:1px solid rgba(52,199,123,0.25); display:flex; align-items:center; gap:12px">
+      <div style="width:32px; height:32px; border-radius:50%; background:var(--green, #34C77B); display:grid; place-items:center">{{ icCheckDark }}</div>
+      <div><div style="font-size:12.5px; color:var(--m1, #A19D99)">Joriy holat</div><div style="font-size:15px; font-weight:700; margin-top:1px">{{ subLabel }}</div></div>
+    </div>
+    </sc-if>
+    <div style="padding:26px 16px 12px; font-size:15px; font-weight:700">1. Kontent turi</div>
+    <div style="display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; padding:0 16px">
+      <sc-for list="{{ planTypes }}" as="t" hint-placeholder-count="4">
+        <button sc-camel-on-click="{{ t.go }}" style="position:relative; text-align:left; padding:14px; border-radius:16px; border:1.5px solid {{ t.bd }}; background:{{ t.bg }}; color:var(--tx, #F5F3F1); cursor:pointer; transition:border-color .25s, background .25s, transform .18s" style-active="transform:scale(0.97)">
+          <div style="position:absolute; top:12px; right:12px; width:20px; height:20px; border-radius:50%; border:1.5px solid {{ t.dotBd }}; background:{{ t.dotBg }}; display:grid; place-items:center; transition:all .25s">{{ t.checkIc }}</div>
+          <div style="font-size:15.5px; font-weight:700">{{ t.name }}</div>
+          <div style="font-size:12.5px; color:var(--m1, #A19D99); margin-top:3px">{{ t.sub }}</div>
+        </button>
+      </sc-for>
+    </div>
+    <div style="padding:12px 18px 0; font-size:13.5px; line-height:1.5; color:var(--m1, #A19D99)">{{ typeDesc }}</div>
+    <div style="padding:26px 16px 12px; font-size:15px; font-weight:700">2. Muddat</div>
+    <div style="display:flex; flex-direction:column; gap:10px; padding:0 16px">
+      <sc-for list="{{ durs }}" as="d" hint-placeholder-count="3">
+        <button sc-camel-on-click="{{ d.go }}" style="display:flex; align-items:center; gap:14px; padding:16px; border-radius:16px; border:1.5px solid {{ d.bd }}; background:{{ d.bg }}; color:var(--tx, #F5F3F1); text-align:left; cursor:pointer; transition:border-color .25s, background .25s, transform .18s" style-active="transform:scale(0.98)">
+          <div style="width:22px; height:22px; flex:none; border-radius:50%; border:2px solid {{ d.radioBd }}; display:grid; place-items:center; transition:border-color .25s"><div style="width:10px; height:10px; border-radius:50%; background:#E5262D; transform:scale({{ d.radioS }}); transition:transform .3s cubic-bezier(.32,.72,0,1)"></div></div>
+          <div style="flex:1; min-width:0">
+            <div style="display:flex; align-items:center; gap:8px"><span style="font-size:16px; font-weight:700">{{ d.name }}</span><sc-if value="{{ d.best }}"><span style="padding:3px 7px; border-radius:6px; background:var(--gold, #F0B94A); color:#1A1406; font-size:9.5px; font-weight:800; letter-spacing:0.08em">FOYDALI</span></sc-if></div>
+            <div style="font-size:12.5px; color:var(--m1, #A19D99); margin-top:3px">{{ d.sub }}</div>
+          </div>
+          <div style="text-align:right; flex:none">
+            <div style="font-size:16px; font-weight:700; font-variant-numeric:tabular-nums">{{ d.price }}</div>
+            <div style="font-size:12px; color:var(--m1, #A19D99); margin-top:3px">{{ d.per }}</div>
+          </div>
+        </button>
+      </sc-for>
+    </div>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ isBalance }}">
+  <div style="animation:ftvFade .35s ease both">
+    <div style="margin:18px 16px 0; padding:18px; border-radius:20px; background:var(--s1, #161618); border:1px solid rgba(var(--ln, 255,255,255),0.06); display:flex; align-items:flex-end; justify-content:space-between; gap:12px">
+      <div><div style="font-size:13px; color:var(--m1, #A19D99)">Joriy balans</div><div style="font-size:28px; font-weight:800; letter-spacing:-0.02em; margin-top:4px; font-variant-numeric:tabular-nums">{{ balanceFmt }}</div></div>
+      <button sc-camel-on-click="{{ goFinance }}" style="display:flex; align-items:center; gap:2px; border:none; background:transparent; color:var(--rt, #FF5A5F); font-size:13.5px; font-weight:600; padding:4px 0; cursor:pointer; white-space:nowrap">Moliya tarixi{{ icChevRsm }}</button>
+    </div>
+    <div style="padding:26px 16px 12px; font-size:19px; font-weight:700; letter-spacing:-0.015em">Qancha toʻldirasiz?</div>
+    <div style="margin:0 16px; display:flex; align-items:baseline; gap:8px; padding:16px 18px; background:var(--s1, #161618); border-radius:18px; border:1.5px solid {{ balBd }}; transition:border-color .2s">
+      <input value="{{ balDisplay }}" sc-camel-on-change="{{ onBalInput }}" sc-camel-on-focus="{{ kbdOn }}" sc-camel-on-blur="{{ kbdOff }}" sc-camel-input-mode="numeric" placeholder="0" style="flex:1; min-width:0; background:transparent; border:none; outline:none; color:var(--tx, #F5F3F1); font-size:34px; font-weight:800; letter-spacing:-0.02em; font-variant-numeric:tabular-nums; padding:0">
+      <span style="font-size:18px; color:var(--m1, #A19D99); font-weight:600">soʻm</span>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; padding:10px 16px 0">
+      <sc-for list="{{ balQuick }}" as="v" hint-placeholder-count="4"><button sc-camel-on-click="{{ v.go }}" style="height:40px; border-radius:12px; border:1px solid {{ v.bd }}; background:{{ v.bg }}; color:{{ v.fg }}; font-size:13.5px; font-weight:600; font-variant-numeric:tabular-nums; cursor:pointer; transition:all .2s" style-active="transform:scale(0.95)">{{ v.label }}</button></sc-for>
+    </div>
+    <div style="padding:12px 20px 0; font-size:13px; color:{{ balHintColor }}; font-weight:500; transition:color .2s">{{ balHint }}</div>
+    <div style="padding:20px 16px 0"><button sc-camel-on-click="{{ balContinue }}" style="width:100%; height:54px; border:none; border-radius:16px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; cursor:pointer; opacity:{{ balBtnO }}; pointer-events:{{ balBtnPE }}; transition:opacity .2s, transform .18s" style-active="transform:scale(0.98)">Davom etish</button></div>
+    <div style="display:flex; gap:10px; padding:16px 20px 0; font-size:13px; line-height:1.5; color:var(--m1, #A19D99)"><span style="flex:none; margin-top:1px">{{ icClock }}</span><span>Keyingi qadamda aniq summa va karta raqami beriladi. Toʻlov 1–5 daqiqada avtomatik tasdiqlanadi.</span></div>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ isGift }}">
+  <div style="animation:ftvFade .35s ease both">
+    <div style="margin:18px 16px 0; padding:20px; border-radius:22px; background:linear-gradient(160deg, rgba(240,185,74,0.16), rgba(240,185,74,0.03)); border:1px solid rgba(240,185,74,0.22)">
+      <div style="width:44px; height:44px; border-radius:13px; background:rgba(240,185,74,0.18); display:grid; place-items:center; color:var(--gold, #F0B94A)">{{ icGift }}</div>
+      <div style="margin-top:14px; font-size:20px; font-weight:800; letter-spacing:-0.02em">Bir oy kino sovgʻa qiling</div>
+      <div style="margin-top:4px; font-size:14px; color:var(--t2, #C9C4BF)">Yigʻgan coinlaringiz — doʻstingiz uchun Premium.</div>
+      <div style="display:flex; justify-content:space-between; margin-top:18px; font-size:13px; font-weight:600; font-variant-numeric:tabular-nums"><span>{{ giftProgLabel }}</span><span style="color:var(--gold, #F0B94A)">{{ giftPct }}</span></div>
+      <div style="margin-top:8px; height:6px; border-radius:3px; background:rgba(var(--ln, 255,255,255),0.08); overflow:hidden"><div style="height:100%; width:{{ giftPct }}; background:var(--gold, #F0B94A); border-radius:3px; transition:width .6s cubic-bezier(.32,.72,0,1)"></div></div>
+    </div>
+    <div style="padding:24px 16px 10px; font-size:15px; font-weight:700">Doʻstingizning Telegram username’i</div>
+    <div style="margin:0 16px; height:54px; display:flex; align-items:center; gap:2px; padding:0 16px; background:var(--s1, #161618); border-radius:16px; border:1.5px solid rgba(var(--ln, 255,255,255),0.08)">
+      <span style="font-size:17px; color:var(--m1, #A19D99); font-weight:600">@</span>
+      <input value="{{ giftUser }}" sc-camel-on-change="{{ onGiftUser }}" sc-camel-on-focus="{{ kbdOn }}" sc-camel-on-blur="{{ kbdOff }}" placeholder="username" sc-camel-auto-capitalize="off" style="flex:1; min-width:0; height:100%; background:transparent; border:none; outline:none; color:var(--tx, #F5F3F1); font-size:17px; font-weight:600; padding:0">
+    </div>
+    <div style="padding:12px 20px 0; font-size:13px; color:{{ giftHintColor }}; font-weight:500">{{ giftHint }}</div>
+    <div style="padding:20px 16px 0"><button sc-camel-on-click="{{ sendGift }}" style="width:100%; height:54px; border:none; border-radius:16px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; cursor:pointer; opacity:{{ giftBtnO }}; pointer-events:{{ giftBtnPE }}; transition:opacity .2s, transform .18s" style-active="transform:scale(0.98)">Sovgʻa qilish</button></div>
+    <div style="display:flex; justify-content:center; padding-top:14px"><button sc-camel-on-click="{{ goCoins }}" style="border:none; background:transparent; color:var(--rt, #FF5A5F); font-size:14px; font-weight:600; padding:8px; cursor:pointer">Coin qanday yigʻiladi?</button></div>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ isDonate }}">
+  <div style="animation:ftvFade .35s ease both">
+    <div style="margin:18px 16px 0; padding:20px; border-radius:22px; background:linear-gradient(160deg, rgba(229,38,45,0.16), rgba(229,38,45,0.03)); border:1px solid rgba(229,38,45,0.22)">
+      <div style="width:44px; height:44px; border-radius:13px; background:rgba(229,38,45,0.18); display:grid; place-items:center; color:var(--rt, #FF5A5F)">{{ icHeart }}</div>
+      <div style="margin-top:14px; font-size:20px; font-weight:800; letter-spacing:-0.02em">Loyihani qoʻllab-quvvatlang</div>
+      <div style="margin-top:4px; font-size:14px; color:var(--t2, #C9C4BF)">Donatlar tarjima va yangi qismlarni tezlashtiradi.</div>
+    </div>
+    <div style="padding:26px 16px 12px; font-size:19px; font-weight:700; letter-spacing:-0.015em">Donat summasi</div>
+    <div style="margin:0 16px; display:flex; align-items:baseline; gap:8px; padding:16px 18px; background:var(--s1, #161618); border-radius:18px; border:1.5px solid {{ donBd }}; transition:border-color .2s">
+      <input value="{{ donDisplay }}" sc-camel-on-change="{{ onDonAmt }}" sc-camel-on-focus="{{ kbdOn }}" sc-camel-on-blur="{{ kbdOff }}" sc-camel-input-mode="numeric" placeholder="0" style="flex:1; min-width:0; background:transparent; border:none; outline:none; color:var(--tx, #F5F3F1); font-size:34px; font-weight:800; letter-spacing:-0.02em; font-variant-numeric:tabular-nums; padding:0">
+      <span style="font-size:18px; color:var(--m1, #A19D99); font-weight:600">soʻm</span>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; padding:10px 16px 0">
+      <sc-for list="{{ donQuick }}" as="v" hint-placeholder-count="4"><button sc-camel-on-click="{{ v.go }}" style="height:40px; border-radius:12px; border:1px solid {{ v.bd }}; background:{{ v.bg }}; color:{{ v.fg }}; font-size:13.5px; font-weight:600; font-variant-numeric:tabular-nums; cursor:pointer; transition:all .2s" style-active="transform:scale(0.95)">{{ v.label }}</button></sc-for>
+    </div>
+    <div style="padding:12px 20px 0; font-size:13px; color:{{ donHintColor }}; font-weight:500">{{ donHint }}</div>
+    <div style="padding:22px 16px 10px; font-size:15px; font-weight:700">Izoh</div>
+    <div style="margin:0 16px; padding:14px 16px 10px; background:var(--s1, #161618); border-radius:16px; border:1.5px solid rgba(var(--ln, 255,255,255),0.08)">
+      <textarea value="{{ donNote }}" sc-camel-on-change="{{ onDonNote }}" sc-camel-on-focus="{{ kbdOn }}" sc-camel-on-blur="{{ kbdOff }}" sc-camel-max-length="300" rows="3" placeholder="Qaysi anime yoki film uchun? Masalan: Qora qilich — keyingi qismlar" style="width:100%; resize:none; background:transparent; border:none; outline:none; color:var(--tx, #F5F3F1); font-size:15px; line-height:1.5; padding:0"></textarea>
+      <div style="text-align:right; font-size:12px; color:var(--m2, #8E8A86); font-variant-numeric:tabular-nums">{{ donCount }}</div>
+    </div>
+    <div style="padding:20px 16px 0"><button sc-camel-on-click="{{ donContinue }}" style="width:100%; height:54px; border:none; border-radius:16px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; cursor:pointer; opacity:{{ donBtnO }}; pointer-events:{{ donBtnPE }}; transition:opacity .2s, transform .18s" style-active="transform:scale(0.98)">Donat qilish</button></div>
+  </div>
+  </sc-if>
+</div>
+</sc-if>
+
+<!-- PROFIL -->
+<sc-if value="{{ isProfile }}" hint-placeholder-val="{{ false }}">
+<div style="padding:8px 0 120px">
+  <h1 style="margin:0; padding:6px 16px 0; font-size:32px; font-weight:800; letter-spacing:-0.035em">Profil</h1>
+  <div style="margin:16px 16px 0; padding:20px; border-radius:24px; background:var(--s1, #161618); border:1px solid rgba(var(--ln, 255,255,255),0.06)">
+    <div style="display:flex; align-items:center; gap:14px">
+      <div style="width:64px; height:64px; flex:none; border-radius:50%; background:linear-gradient(145deg,#E5262D,#8E1418); display:grid; place-items:center; font-size:26px; font-weight:700; color:#fff">{{ initial }}</div>
+      <div style="flex:1; min-width:0">
+        <div style="font-size:19px; font-weight:700; letter-spacing:-0.01em">{{ fullName }}</div>
+        <div style="font-size:14px; color:var(--m1, #A19D99); margin-top:2px">{{ handle }}</div>
+        <button sc-camel-on-click="{{ copyId }}" style="margin-top:8px; display:inline-flex; align-items:center; gap:6px; height:26px; padding:0 10px; border-radius:13px; border:none; background:var(--s4, #232326); color:var(--t3, #D9D5D1); font-size:12px; font-weight:600; font-variant-numeric:tabular-nums; cursor:pointer" style-active="transform:scale(0.95)"><span>{{ idLabel }}</span>{{ icCopyXs }}</button>
+      </div>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin-top:18px">
+      <sc-for list="{{ pStats }}" as="st" hint-placeholder-count="3"><button sc-camel-on-click="{{ st.go }}" style="min-width:0; text-align:left; padding:12px; border-radius:14px; border:none; background:var(--s3, #1F1F22); color:var(--tx, #F5F3F1); cursor:pointer; transition:transform .18s" style-active="transform:scale(0.96)"><div style="font-size:12px; color:var(--m1, #A19D99)">{{ st.label }}</div><div style="font-size:14.5px; font-weight:700; margin-top:4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-variant-numeric:tabular-nums">{{ st.value }}</div></button></sc-for>
+    </div>
+  </div>
+  <sc-if value="{{ showPhone }}">
+  <button sc-camel-on-click="{{ sharePhone }}" style="width:calc(100% - 32px); margin:12px 16px 0; display:flex; align-items:center; gap:12px; padding:14px; border-radius:18px; border:1px dashed rgba(var(--ln, 255,255,255),0.16); background:transparent; color:var(--tx, #F5F3F1); text-align:left; cursor:pointer" style-active="background:var(--s1, #161618)">
+    <div style="width:38px; height:38px; flex:none; border-radius:12px; background:rgba(52,199,123,0.14); color:var(--green, #34C77B); display:grid; place-items:center">{{ icPhone }}</div>
+    <div style="flex:1"><div style="font-size:15px; font-weight:600">Telefon raqamini ulashing</div><div style="font-size:12.5px; color:var(--m1, #A19D99); margin-top:2px">Hisobni tiklash va toʻlovlar uchun</div></div>
+    <span style="color:var(--m4, #5E5A57)">{{ icChevRsm }}</span>
+  </button>
+  </sc-if>
+  <sc-for list="{{ menu }}" as="g" hint-placeholder-count="4">
+    <div style="margin-top:24px">
+      <div style="padding:0 30px 8px; font-size:12px; font-weight:600; color:var(--m2, #8E8A86); text-transform:uppercase; letter-spacing:0.08em">{{ g.label }}</div>
+      <div style="margin:0 16px; border-radius:18px; background:var(--s1, #161618); border:1px solid rgba(var(--ln, 255,255,255),0.06); overflow:hidden">
+        <sc-for list="{{ g.rows }}" as="r">
+          <button sc-camel-on-click="{{ r.go }}" style="width:100%; display:flex; align-items:center; gap:12px; padding:12px 14px; border:none; border-top:{{ r.bt }}; background:transparent; color:var(--tx, #F5F3F1); text-align:left; cursor:pointer; transition:background .15s" style-active="background:var(--s3, #1F1F22)">
+            <div style="width:34px; height:34px; flex:none; border-radius:10px; background:var(--s4, #232326); display:grid; place-items:center; color:{{ r.ic }}">{{ r.icon }}</div>
+            <div style="flex:1; min-width:0"><div style="font-size:15px; font-weight:600">{{ r.title }}</div><div style="font-size:12.5px; color:var(--m1, #A19D99); margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ r.sub }}</div></div>
+            <div style="font-size:13.5px; color:var(--m1, #A19D99); font-variant-numeric:tabular-nums; white-space:nowrap">{{ r.value }}</div>
+            <span style="color:var(--m4, #5E5A57)">{{ icChevRsm }}</span>
+          </button>
+        </sc-for>
+      </div>
+    </div>
+  </sc-for>
+  <div style="margin-top:24px">
+    <div style="padding:0 30px 8px; font-size:12px; font-weight:600; color:var(--m2, #8E8A86); text-transform:uppercase; letter-spacing:0.08em">Mavzu</div>
+    <div style="position:relative; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); margin:0 16px; padding:3px; background:var(--s2, #18181B); border-radius:13px">
+      <div style="position:absolute; top:3px; bottom:3px; left:3px; width:calc((100% - 6px) / 3); transform:translateX({{ themeThumbX }}); transition:transform .5s cubic-bezier(.32,.72,0,1); background:var(--thumb, #2C2C30); border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.18)"></div>
+      <sc-for list="{{ themes }}" as="t" hint-placeholder-count="3"><button sc-camel-on-click="{{ t.go }}" style="position:relative; height:40px; border:none; background:transparent; color:{{ t.color }}; display:flex; align-items:center; justify-content:center; gap:6px; font-size:13.5px; font-weight:600; cursor:pointer; transition:color .3s">{{ t.icon }}<span>{{ t.label }}</span></button></sc-for>
+    </div>
+  </div>
+  <div style="margin-top:24px">
+    <div style="padding:0 30px 8px; font-size:12px; font-weight:600; color:var(--m2, #8E8A86); text-transform:uppercase; letter-spacing:0.08em">Til</div>
+    <div style="position:relative; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); margin:0 16px; padding:3px; background:var(--s2, #18181B); border-radius:13px">
+      <div style="position:absolute; top:3px; bottom:3px; left:3px; width:calc((100% - 6px) / 2); transform:translateX({{ langThumbX }}); transition:transform .5s cubic-bezier(.32,.72,0,1); background:var(--thumb, #2C2C30); border-radius:10px"></div>
+      <sc-for list="{{ langs }}" as="l"><button sc-camel-on-click="{{ l.go }}" style="position:relative; height:38px; border:none; background:transparent; color:{{ l.color }}; font-size:14px; font-weight:600; cursor:pointer; transition:color .3s">{{ l.label }}</button></sc-for>
+    </div>
+  </div>
+  <div style="display:flex; justify-content:center; align-items:center; gap:8px; margin-top:28px; font-size:12.5px; color:var(--m3, #74706C)">{{ logoTinyMuted }}<span>FilasofTV · v2.0</span></div>
+</div>
+</sc-if>
+
+<!-- BONUS COINLAR -->
+<sc-if value="{{ isCoins }}" hint-placeholder-val="{{ false }}">
+<div style="padding:8px 0 120px">
+  <h1 style="margin:0; padding:6px 16px 0; font-size:32px; font-weight:800; letter-spacing:-0.035em">Bonus coinlar</h1>
+  <div style="margin:16px 16px 0; padding:22px 20px; border-radius:24px; background:radial-gradient(120% 90% at 100% 0%, rgba(240,185,74,0.22), rgba(240,185,74,0) 60%), var(--s1, #161618); border:1px solid rgba(240,185,74,0.2)">
+    <div style="display:flex; align-items:center; gap:10px">{{ icCoinLg }}<span style="font-size:40px; font-weight:800; letter-spacing:-0.03em; font-variant-numeric:tabular-nums">{{ coinsFmt }}</span></div>
+    <div style="display:flex; justify-content:space-between; margin-top:18px; font-size:13px; font-weight:600; font-variant-numeric:tabular-nums"><span style="color:var(--t2, #C9C4BF)">{{ coinGiftLabel }}</span><span style="color:var(--gold, #F0B94A)">{{ giftPct }}</span></div>
+    <div style="margin-top:8px; height:6px; border-radius:3px; background:rgba(var(--ln, 255,255,255),0.08); overflow:hidden"><div style="height:100%; width:{{ giftPct }}; background:var(--gold, #F0B94A); transition:width .6s cubic-bezier(.32,.72,0,1)"></div></div>
+    <button sc-camel-on-click="{{ goGift }}" style="margin-top:14px; display:flex; align-items:center; gap:2px; border:none; background:transparent; color:var(--gold, #F0B94A); font-size:13.5px; font-weight:600; padding:2px 0; cursor:pointer">2 700 coin = doʻstingizga 1 oylik tarif{{ icChevRsm }}</button>
+  </div>
+  <div style="position:relative; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); margin:18px 16px 0; padding:3px; background:var(--s2, #18181B); border-radius:13px">
+    <div style="position:absolute; top:3px; bottom:3px; left:3px; width:calc((100% - 6px) / 2); transform:translateX({{ coinThumbX }}); transition:transform .5s cubic-bezier(.32,.72,0,1); background:var(--thumb, #2C2C30); border-radius:10px"></div>
+    <sc-for list="{{ coinTabs }}" as="t"><button sc-camel-on-click="{{ t.go }}" style="position:relative; height:36px; border:none; background:transparent; color:{{ t.color }}; font-size:14px; font-weight:600; cursor:pointer; transition:color .3s">{{ t.label }}</button></sc-for>
+  </div>
+  <sc-if value="{{ coinCollect }}" hint-placeholder-val="{{ true }}">
+  <div style="margin:14px 16px 0; border-radius:18px; background:var(--s1, #161618); border:1px solid rgba(var(--ln, 255,255,255),0.06); overflow:hidden; animation:ftvFade .35s ease both">
+    <sc-for list="{{ coinRows }}" as="r" hint-placeholder-count="3">
+      <button sc-camel-on-click="{{ r.go }}" style="width:100%; display:flex; align-items:center; gap:12px; padding:14px; border:none; border-top:{{ r.bt }}; background:transparent; color:var(--tx, #F5F3F1); text-align:left; cursor:{{ r.cursor }}; opacity:{{ r.o }}" style-active="background:var(--s3, #1F1F22)">
+        <div style="width:36px; height:36px; flex:none; border-radius:11px; background:var(--s4, #232326); display:grid; place-items:center; color:var(--gold, #F0B94A)">{{ r.icon }}</div>
+        <div style="flex:1; min-width:0"><div style="font-size:15px; font-weight:600">{{ r.title }}</div><div style="font-size:12.5px; color:var(--m1, #A19D99); margin-top:2px">{{ r.sub }}</div></div>
+        <span style="padding:5px 10px; border-radius:10px; background:{{ r.bBg }}; color:{{ r.bFg }}; font-size:12.5px; font-weight:700">{{ r.badge }}</span>
+      </button>
+    </sc-for>
+  </div>
+  </sc-if>
+  <sc-if value="{{ coinCode }}">
+  <div style="padding:14px 16px 0; animation:ftvFade .35s ease both">
+    <div style="height:56px; display:flex; align-items:center; padding:0 16px; background:var(--s1, #161618); border-radius:16px; border:1.5px solid rgba(var(--ln, 255,255,255),0.08)">
+      <input value="{{ code }}" sc-camel-on-change="{{ onCode }}" sc-camel-on-focus="{{ kbdOn }}" sc-camel-on-blur="{{ kbdOff }}" placeholder="FILASOV2026" sc-camel-auto-capitalize="characters" style="flex:1; min-width:0; height:100%; background:transparent; border:none; outline:none; color:var(--tx, #F5F3F1); font-size:18px; font-weight:700; letter-spacing:0.12em; padding:0">
+    </div>
+    <div style="padding:10px 4px 0; font-size:13px; color:var(--m1, #A19D99)">Kodlar kanal va hamkorlar orqali tarqatiladi.</div>
+    <button sc-camel-on-click="{{ activateCode }}" style="margin-top:18px; width:100%; height:54px; border:none; border-radius:16px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; cursor:pointer; opacity:{{ codeBtnO }}; pointer-events:{{ codeBtnPE }}; transition:opacity .2s, transform .18s" style-active="transform:scale(0.98)">Faollashtirish</button>
+  </div>
+  </sc-if>
+</div>
+</sc-if>
+
+<!-- MOLIYA TARIXI -->
+<sc-if value="{{ isFinance }}" hint-placeholder-val="{{ false }}">
+<div style="padding:8px 0 120px">
+  <h1 style="margin:0; padding:6px 16px 0; font-size:32px; font-weight:800; letter-spacing:-0.035em">Moliya tarixi</h1>
+  <div style="position:relative; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); margin:16px 16px 0; padding:3px; background:var(--s2, #18181B); border-radius:13px">
+    <div style="position:absolute; top:3px; bottom:3px; left:3px; width:calc((100% - 6px) / 2); transform:translateX({{ finThumbX }}); transition:transform .5s cubic-bezier(.32,.72,0,1); background:var(--thumb, #2C2C30); border-radius:10px"></div>
+    <sc-for list="{{ finTabs }}" as="t"><button sc-camel-on-click="{{ t.go }}" style="position:relative; height:36px; border:none; background:transparent; color:{{ t.color }}; font-size:14px; font-weight:600; cursor:pointer; transition:color .3s">{{ t.label }}</button></sc-for>
+  </div>
+  <sc-if value="{{ finHas }}" hint-placeholder-val="{{ true }}">
+  <div style="margin:14px 16px 0; border-radius:18px; background:var(--s1, #161618); border:1px solid rgba(var(--ln, 255,255,255),0.06); overflow:hidden; animation:ftvFade .35s ease both">
+    <sc-for list="{{ finRows }}" as="r" hint-placeholder-count="4">
+      <div style="display:flex; align-items:center; gap:12px; padding:14px; border-top:{{ r.bt }}">
+        <div style="width:38px; height:38px; flex:none; border-radius:50%; background:{{ r.icBg }}; color:{{ r.icFg }}; display:grid; place-items:center">{{ r.icon }}</div>
+        <div style="flex:1; min-width:0"><div style="font-size:14.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ r.name }}</div><div style="font-size:12.5px; color:var(--m1, #A19D99); margin-top:2px">{{ r.date }}</div></div>
+        <div style="font-size:15px; font-weight:700; color:{{ r.color }}; font-variant-numeric:tabular-nums; white-space:nowrap">{{ r.amt }}</div>
+      </div>
+    </sc-for>
+  </div>
+  </sc-if>
+  <sc-if value="{{ finEmpty }}">
+  <div style="padding:56px 32px; text-align:center">
+    <div style="font-size:17px; font-weight:700">Hozircha tranzaksiyalar yoʻq</div>
+    <div style="font-size:14px; color:var(--m1, #A19D99); margin-top:6px">Toʻlovlar va bonuslar shu yerda koʻrinadi.</div>
+  </div>
+  </sc-if>
+</div>
+</sc-if>
+
+<!-- KUTUBXONA -->
+<sc-if value="{{ isLibrary }}" hint-placeholder-val="{{ false }}">
+<div style="padding:8px 0 120px">
+  <h1 style="margin:0; padding:6px 16px 0; font-size:32px; font-weight:800; letter-spacing:-0.035em">Kutubxona</h1>
+  <div style="position:relative; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); margin:16px 16px 0; padding:3px; background:var(--s2, #18181B); border-radius:13px">
+    <div style="position:absolute; top:3px; bottom:3px; left:3px; width:calc((100% - 6px) / 2); transform:translateX({{ libThumbX }}); transition:transform .5s cubic-bezier(.32,.72,0,1); background:var(--thumb, #2C2C30); border-radius:10px"></div>
+    <sc-for list="{{ libTabs }}" as="t"><button sc-camel-on-click="{{ t.go }}" style="position:relative; height:36px; border:none; background:transparent; color:{{ t.color }}; font-size:14px; font-weight:600; cursor:pointer; transition:color .3s">{{ t.label }}</button></sc-for>
+  </div>
+  <sc-if value="{{ libHas }}" hint-placeholder-val="{{ true }}">
+  <div style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px 10px; padding:16px 16px 0; animation:ftvFade .35s ease both">
+    <sc-for list="{{ libItems }}" as="c" hint-placeholder-count="3">
+      <div sc-camel-on-click="{{ c.open }}" style="min-width:0; cursor:pointer; transition:transform .2s" style-active="transform:scale(0.96)">
+        <div style="position:relative; aspect-ratio:2/3; border-radius:13px; overflow:hidden; background:{{ c.art }}; box-shadow:inset 0 0 0 1px rgba(var(--ln, 255,255,255),0.06)">
+          <div style="position:absolute; inset:0; background:linear-gradient(180deg, transparent 45%, rgba(0,0,0,0.6))"></div>
+          <div style="position:absolute; left:8px; right:8px; bottom:10px; font-size:9.5px; font-weight:800; letter-spacing:0.1em; line-height:1.15; text-transform:uppercase; color:#fff">{{ c.title }}</div>
+          <sc-if value="{{ c.hasProg }}"><div style="position:absolute; left:0; right:0; bottom:0; height:3px; background:rgba(255, 255, 255, 0.2)"><div style="height:100%; width:{{ c.pct }}; background:#E5262D"></div></div></sc-if>
+        </div>
+        <div style="margin-top:8px; font-size:13px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ c.title }}</div>
+        <div style="margin-top:1px; font-size:11.5px; color:var(--m1, #A19D99)">{{ c.meta }}</div>
+      </div>
+    </sc-for>
+  </div>
+  </sc-if>
+  <sc-if value="{{ libEmpty }}">
+  <div style="padding:56px 32px; display:flex; flex-direction:column; align-items:center; text-align:center">
+    <div style="width:56px; height:56px; border-radius:18px; background:var(--s2, #18181B); display:grid; place-items:center; color:var(--m1, #A19D99)">{{ icLibraryLg }}</div>
+    <div style="margin-top:16px; font-size:17px; font-weight:700">{{ libEmptyText }}</div>
+    <button sc-camel-on-click="{{ openCatalog }}" style="margin-top:18px; height:46px; padding:0 22px; border:none; border-radius:14px; background:var(--tx, #F5F3F1); color:var(--bg, #0C0C0D); font-size:15px; font-weight:700; cursor:pointer">Katalogni ochish</button>
+  </div>
+  </sc-if>
+</div>
+</sc-if>
+
+<!-- YORDAM -->
+<sc-if value="{{ isHelp }}" hint-placeholder-val="{{ false }}">
+<div style="padding:8px 0 120px">
+  <h1 style="margin:0; padding:6px 16px 0; font-size:32px; font-weight:800; letter-spacing:-0.035em">Yordam</h1>
+  <div style="margin:16px 16px 0; padding:22px 20px; border-radius:24px; background:var(--s1, #161618); border:1px solid rgba(var(--ln, 255,255,255),0.06)">
+    <div style="width:44px; height:44px; border-radius:13px; background:rgba(229,38,45,0.15); color:var(--rt, #FF5A5F); display:grid; place-items:center">{{ icChat }}</div>
+    <div style="margin-top:14px; font-size:20px; font-weight:800; letter-spacing:-0.02em">Qanday yordam beramiz?</div>
+    <div style="margin-top:4px; font-size:14px; line-height:1.5; color:var(--m1, #A19D99)">Toʻlov, tarif yoki film boʻyicha savolingizni yuboring.</div>
+    <button sc-camel-on-click="{{ writeOperator }}" style="margin-top:18px; width:100%; height:50px; border:none; border-radius:15px; background:#E5262D; color:#fff; font-size:15.5px; font-weight:700; display:flex; align-items:center; justify-content:center; gap:8px; cursor:pointer; transition:transform .18s" style-active="transform:scale(0.98)">{{ icSend }}Operatorga yozish</button>
+  </div>
+  <div style="padding:28px 16px 12px; font-size:19px; font-weight:700; letter-spacing:-0.015em">Koʻp beriladigan savollar</div>
+  <div style="margin:0 16px; border-radius:18px; background:var(--s1, #161618); border:1px solid rgba(var(--ln, 255,255,255),0.06); overflow:hidden">
+    <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="3">
+      <div style="border-top:{{ f.bt }}">
+        <button sc-camel-on-click="{{ f.go }}" style="width:100%; display:flex; align-items:center; gap:12px; padding:16px; border:none; background:transparent; color:var(--tx, #F5F3F1); text-align:left; font-size:15px; font-weight:600; cursor:pointer">
+          <span style="flex:1">{{ f.q }}</span>
+          <span style="color:var(--m2, #8E8A86); transform:rotate({{ f.rot }}); transition:transform .4s cubic-bezier(.32,.72,0,1)">{{ icChevD }}</span>
+        </button>
+        <div style="display:grid; grid-template-rows:{{ f.rows }}; transition:grid-template-rows .45s cubic-bezier(.32,.72,0,1)">
+          <div style="overflow:hidden; min-height:0"><div style="padding:0 16px 16px; font-size:14px; line-height:1.55; color:var(--m1, #A19D99)">{{ f.a }}</div></div>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+</div>
+</sc-if>
+
+</div>
+
+<div style="position:absolute; top:0; left:0; right:0; height:46px; z-index:22; display:flex; align-items:center; justify-content:center; padding:0 56px; background:rgba(var(--bgc, 12,12,13),0.82); backdrop-filter:blur(20px) saturate(180%); border-bottom:1px solid rgba(var(--ln, 255,255,255),0.06); opacity:{{ compactO }}; transform:translateY({{ compactY }}); transition:opacity .25s, transform .4s cubic-bezier(.32,.72,0,1); pointer-events:none">
+  <span style="font-size:16px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ compactTitle }}</span>
+</div>
+
+<div style="position:absolute; left:10px; right:10px; bottom:calc(78px + env(safe-area-inset-bottom)); z-index:20; display:flex; align-items:center; gap:12px; padding:10px 10px 10px 18px; border-radius:22px; background:rgba(var(--glass, 30,30,33),0.9); backdrop-filter:blur(24px) saturate(160%); border:1px solid rgba(var(--ln, 255,255,255),0.08); box-shadow:0 18px 40px rgba(0,0,0,0.5); transform:{{ panelT }}; opacity:{{ panelO }}; pointer-events:{{ panelPE }}; transition:transform .5s cubic-bezier(.32,.72,0,1), opacity .3s">
+  <div style="flex:1; min-width:0"><div style="font-size:12.5px; color:var(--m1, #A19D99)">{{ planSummary }}</div><div style="font-size:21px; font-weight:800; letter-spacing:-0.02em; font-variant-numeric:tabular-nums">{{ planPriceFmt }}</div></div>
+  <button sc-camel-on-click="{{ openConfirm }}" style="height:50px; padding:0 22px; border:none; border-radius:15px; background:#E5262D; color:#fff; font-size:15.5px; font-weight:700; cursor:pointer; box-shadow:0 10px 24px -8px rgba(229,38,45,0.7); transition:transform .18s" style-active="transform:scale(0.96)">Rasmiylashtirish</button>
+</div>
+
+<div style="position:absolute; left:0; right:0; bottom:0; z-index:24; padding:30px 16px calc(14px + env(safe-area-inset-bottom)); background:linear-gradient(180deg, rgba(var(--bgc, 12,12,13),0), var(--bg, #0C0C0D) 42%); transform:{{ ctaT }}; pointer-events:{{ ctaPE }}; transition:transform .5s cubic-bezier(.32,.72,0,1)">
+  <button sc-camel-on-click="{{ ctMain }}" style="width:100%; height:56px; border:none; border-radius:17px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; display:flex; align-items:center; justify-content:center; gap:9px; cursor:pointer; box-shadow:0 14px 30px -10px rgba(229,38,45,0.75); transition:transform .18s" style-active="transform:scale(0.98)">{{ ctMainIcon }}<span>{{ ctMainLabel }}</span></button>
+</div>
+
+<div style="position:absolute; left:0; right:0; bottom:0; z-index:25; padding:6px 8px calc(8px + env(safe-area-inset-bottom)); background:rgba(var(--bgc, 12,12,13),0.8); backdrop-filter:blur(24px) saturate(180%); border-top:1px solid rgba(var(--ln, 255,255,255),0.06); transform:{{ navT }}; transition:transform .5s cubic-bezier(.32,.72,0,1)">
+  <div style="position:relative; display:grid; grid-template-columns:repeat(4,minmax(0,1fr))">
+    <div style="position:absolute; top:3px; bottom:3px; left:0; width:25%; display:flex; justify-content:center; transform:translateX({{ navThumbX }}); transition:transform .55s cubic-bezier(.32,.72,0,1)"><div style="width:68px; height:100%; border-radius:16px; background:rgba(229,38,45,0.13)"></div></div>
+    <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="4"><button sc-camel-on-click="{{ n.go }}" style="position:relative; height:56px; border:none; background:transparent; color:{{ n.color }}; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; font-size:11px; font-weight:600; cursor:pointer; transition:color .3s" style-active="transform:scale(0.92)">{{ n.icon }}<span>{{ n.label }}</span></button></sc-for>
+  </div>
+</div>
+
+<div style="position:absolute; top:12px; left:50%; z-index:90; max-width:calc(100% - 32px); transform:translate(-50%, {{ toastY }}) scale({{ toastS }}); opacity:{{ toastO }}; transition:transform .55s cubic-bezier(.32,.72,0,1), opacity .3s; pointer-events:none">
+  <div style="display:flex; align-items:center; gap:10px; padding:10px 16px 10px 10px; border-radius:22px; background:rgba(38,38,42,0.94); color:#fff; backdrop-filter:blur(20px); border:1px solid rgba(var(--ln, 255,255,255),0.08); box-shadow:0 14px 34px rgba(0,0,0,0.5); font-size:14px; font-weight:600; white-space:nowrap; color:#fff">
+    <span style="width:24px; height:24px; flex:none; border-radius:50%; background:#E5262D; display:grid; place-items:center">{{ icCheckXs }}</span><span>{{ toastText }}</span>
+  </div>
+</div>
+
+<div sc-camel-on-click="{{ closeSheets }}" style="position:absolute; inset:0; z-index:60; background:rgba(0,0,0,0.6); opacity:{{ scrimO }}; pointer-events:{{ scrimPE }}; transition:opacity .4s ease"></div>
+
+<div ref="{{ cfRef }}" style="position:absolute; left:0; right:0; bottom:0; z-index:61; padding:0 20px calc(18px + env(safe-area-inset-bottom)); background:var(--s1, #161618); border-radius:30px 30px 0 0; border-top:1px solid rgba(var(--ln, 255,255,255),0.07); box-shadow:0 -24px 60px rgba(0,0,0,0.5); transform:{{ cfT }}; transition:transform .5s cubic-bezier(.32,.72,0,1)">
+  <div sc-camel-on-pointer-down="{{ cfDragStart }}" sc-camel-on-pointer-move="{{ dragMove }}" sc-camel-on-pointer-up="{{ dragEnd }}" sc-camel-on-pointer-cancel="{{ dragEnd }}" style="display:flex; justify-content:center; padding:10px 0 16px; cursor:grab; touch-action:none"><div style="width:40px; height:5px; border-radius:3px; background:rgba(var(--ln, 255,255,255),0.18)"></div></div>
+  <sc-if value="{{ cfSteps }}"><div style="display:flex; gap:6px; margin-bottom:14px"><div style="height:4px; width:22px; border-radius:2px; background:#E5262D"></div><div style="height:4px; width:22px; border-radius:2px; background:{{ cfDot2 }}; transition:background .3s"></div></div></sc-if>
+  <sc-if value="{{ cfSuccess }}"><div style="width:64px; height:64px; border-radius:50%; background:var(--green, #34C77B); display:grid; place-items:center; margin-bottom:16px; animation:ftvPop .6s cubic-bezier(.32,.72,0,1) both; box-shadow:0 0 0 10px rgba(52,199,123,0.14)">{{ icCheckLgDark }}</div></sc-if>
+  <div style="font-size:23px; font-weight:800; letter-spacing:-0.025em">{{ cfTitle }}</div>
+  <div style="margin-top:6px; font-size:14.5px; line-height:1.5; color:var(--m1, #A19D99)">{{ cfText }}</div>
+  <div style="margin-top:18px; border-radius:16px; background:var(--inset, #0F0F11); padding:2px 16px">
+    <div style="display:flex; justify-content:space-between; padding:12px 0; font-size:14px"><span style="color:var(--m1, #A19D99)">Tarif</span><span style="font-weight:600">{{ cfType }}</span></div>
+    <div style="display:flex; justify-content:space-between; padding:12px 0; font-size:14px; border-top:1px solid rgba(var(--ln, 255,255,255),0.06)"><span style="color:var(--m1, #A19D99)">Muddat</span><span style="font-weight:600">{{ cfDur }}</span></div>
+    <div style="display:flex; justify-content:space-between; padding:12px 0; font-size:14px; border-top:1px solid rgba(var(--ln, 255,255,255),0.06)"><span style="color:var(--m1, #A19D99)">Narx</span><span style="font-weight:700; font-variant-numeric:tabular-nums">{{ cfPrice }}</span></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 0; font-size:14px; border-top:1px solid rgba(var(--ln, 255,255,255),0.06)"><span style="color:var(--m1, #A19D99)">Balansingiz</span><span style="display:flex; align-items:center; gap:8px"><span style="padding:2px 7px; border-radius:6px; background:{{ cfBalTagBg }}; color:{{ cfBalColor }}; font-size:11px; font-weight:700">{{ cfBalTag }}</span><span style="font-weight:700; color:{{ cfBalColor }}; font-variant-numeric:tabular-nums">{{ balanceFmt }}</span></span></div>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:6px; margin-top:18px">
+    <sc-if value="{{ cfIs1 }}"><button sc-camel-on-click="{{ cfNext }}" style="width:100%; height:54px; border:none; border-radius:16px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; cursor:pointer; transition:transform .18s" style-active="transform:scale(0.98)">Davom etish</button></sc-if>
+    <sc-if value="{{ cfIs2 }}"><button sc-camel-on-pointer-down="{{ holdStart }}" sc-camel-on-pointer-up="{{ holdEnd }}" sc-camel-on-pointer-leave="{{ holdEnd }}" sc-camel-on-pointer-cancel="{{ holdEnd }}" sc-camel-on-context-menu="{{ prevent }}" style="position:relative; width:100%; height:56px; overflow:hidden; border:none; border-radius:16px; background:rgba(229,38,45,0.2); color:#fff; font-size:16px; font-weight:700; cursor:pointer; touch-action:none; transform:scale({{ holdScale }}); transition:transform .25s cubic-bezier(.32,.72,0,1)"><div ref="{{ holdRef }}" style="position:absolute; inset:0; background:#E5262D; transform-origin:left center; transform:scaleX(0)"></div><span style="position:relative">{{ holdLabel }}</span></button></sc-if>
+    <sc-if value="{{ cfIsIns }}"><button sc-camel-on-click="{{ topUpNeed }}" style="width:100%; height:54px; border:none; border-radius:16px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; cursor:pointer">Balansni toʻldirish</button></sc-if>
+    <sc-if value="{{ cfSuccess }}"><button sc-camel-on-click="{{ startWatching }}" style="width:100%; height:54px; border:none; border-radius:16px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; cursor:pointer">Tomoshani boshlash</button></sc-if>
+    <sc-if value="{{ cfCancel }}"><button sc-camel-on-click="{{ closeConfirm }}" style="width:100%; height:48px; border:none; border-radius:14px; background:transparent; color:var(--m1, #A19D99); font-size:15px; font-weight:600; cursor:pointer">Bekor qilish</button></sc-if>
+  </div>
+</div>
+
+<div ref="{{ payRef }}" style="position:absolute; left:0; right:0; bottom:0; z-index:62; max-height:calc(100% - 16px); overflow-y:auto; padding:0 20px calc(16px + env(safe-area-inset-bottom)); background:var(--s1, #161618); border-radius:30px 30px 0 0; border-top:1px solid rgba(var(--ln, 255,255,255),0.07); box-shadow:0 -24px 60px rgba(0,0,0,0.5); transform:{{ payT }}; transition:transform .5s cubic-bezier(.32,.72,0,1)">
+  <div sc-camel-on-pointer-down="{{ payDragStart }}" sc-camel-on-pointer-move="{{ dragMove }}" sc-camel-on-pointer-up="{{ dragEnd }}" sc-camel-on-pointer-cancel="{{ dragEnd }}" style="display:flex; justify-content:center; padding:10px 0 12px; cursor:grab; touch-action:none"><div style="width:40px; height:5px; border-radius:3px; background:rgba(var(--ln, 255,255,255),0.18)"></div></div>
+  <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px">
+    <div><div style="font-size:21px; font-weight:800; letter-spacing:-0.02em">{{ payTitle }}</div><div style="font-size:13.5px; color:var(--m1, #A19D99); margin-top:3px; font-variant-numeric:tabular-nums">{{ payBase }}</div></div>
+    <button sc-camel-on-click="{{ closePay }}" style="width:34px; height:34px; flex:none; border-radius:50%; border:none; background:var(--s5, #2A2A2E); color:var(--t3, #D9D5D1); display:grid; place-items:center; cursor:pointer">{{ icCloseSm }}</button>
+  </div>
+  <div style="margin-top:16px; padding:16px 18px; border-radius:18px; background:var(--inset, #0F0F11); border:1px solid rgba(var(--ln, 255,255,255),0.06); opacity:{{ payExactO }}; transition:opacity .3s">
+    <div style="font-size:10.5px; font-weight:700; letter-spacing:0.16em; color:var(--m1, #A19D99)">AYNAN SHU SUMMANI OʻTKAZING</div>
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:8px">
+      <div style="font-size:30px; font-weight:800; letter-spacing:-0.02em; font-variant-numeric:tabular-nums; white-space:nowrap">{{ payExact }}</div>
+      <button sc-camel-on-click="{{ copyAmt }}" style="height:36px; padding:0 12px; flex:none; display:flex; align-items:center; gap:6px; border:none; border-radius:12px; background:{{ copyAmtBg }}; color:{{ copyAmtFg }}; font-size:13px; font-weight:600; cursor:pointer; transition:all .25s; pointer-events:{{ payExactPE }}">{{ copyAmtIc }}<span>{{ copyAmtLabel }}</span></button>
+    </div>
+  </div>
+  <div style="display:flex; align-items:center; gap:10px; margin-top:14px">
+    <span style="color:{{ timerColor }}">{{ icClock }}</span>
+    <span style="font-size:15px; font-weight:700; color:{{ timerColor }}; font-variant-numeric:tabular-nums; min-width:46px">{{ timerText }}</span>
+    <div style="flex:1; height:4px; border-radius:2px; background:rgba(var(--ln, 255,255,255),0.08); overflow:hidden"><div style="height:100%; width:{{ timerPct }}; background:{{ timerColor }}; transition:width 1s linear, background .3s"></div></div>
+  </div>
+  <div style="display:flex; gap:10px; margin-top:14px; padding:12px 14px; border-radius:14px; background:{{ warnBg }}; color:{{ warnFg }}; font-size:13px; line-height:1.45">
+    <span style="flex:none; margin-top:1px">{{ icAlert }}</span><span>{{ warnText }}</span>
+  </div>
+  <div style="margin-top:14px; border-radius:16px; background:var(--s3, #1F1F22); padding:2px 16px">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; padding:12px 0">
+      <div><div style="font-size:12px; color:var(--m1, #A19D99)">Karta raqami</div><div style="font-size:17px; font-weight:700; letter-spacing:0.04em; margin-top:3px; font-variant-numeric:tabular-nums">8600 3129 4417 0582</div></div>
+      <button sc-camel-on-click="{{ copyCard }}" style="height:34px; padding:0 12px; flex:none; display:flex; align-items:center; gap:6px; border:none; border-radius:11px; background:{{ copyCardBg }}; color:{{ copyCardFg }}; font-size:13px; font-weight:600; cursor:pointer; transition:all .25s">{{ copyCardIc }}<span>{{ copyCardLabel }}</span></button>
+    </div>
+    <div style="padding:12px 0; border-top:1px solid rgba(var(--ln, 255,255,255),0.06)"><div style="font-size:12px; color:var(--m1, #A19D99)">Karta egasi</div><div style="font-size:15px; font-weight:600; margin-top:3px">Aziz Rahimov</div></div>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:10px; margin-top:16px">
+    <div style="display:flex; align-items:center; gap:12px; font-size:14px"><span style="width:24px; height:24px; flex:none; border-radius:50%; background:var(--s5, #2A2A2E); display:grid; place-items:center; font-size:12px; font-weight:700">1</span>Summani nusxalang</div>
+    <div style="display:flex; align-items:center; gap:12px; font-size:14px"><span style="width:24px; height:24px; flex:none; border-radius:50%; background:var(--s5, #2A2A2E); display:grid; place-items:center; font-size:12px; font-weight:700">2</span>Kartaga oʻtkazing</div>
+    <div style="display:flex; align-items:center; gap:12px; font-size:14px"><span style="width:24px; height:24px; flex:none; border-radius:50%; background:var(--s5, #2A2A2E); display:grid; place-items:center; font-size:12px; font-weight:700">3</span>“Toʻladim”ni bosing</div>
+  </div>
+  <div style="display:flex; flex-direction:column; gap:6px; margin-top:18px">
+    <button sc-camel-on-click="{{ payPrimary }}" style="width:100%; height:54px; border:none; border-radius:16px; background:#E5262D; color:#fff; font-size:16px; font-weight:700; cursor:pointer; transition:transform .18s" style-active="transform:scale(0.98)">{{ payPrimaryLabel }}</button>
+    <button sc-camel-on-click="{{ closePay }}" style="width:100%; height:48px; border:none; border-radius:14px; background:transparent; color:var(--m1, #A19D99); font-size:15px; font-weight:600; cursor:pointer">Bekor qilish</button>
+  </div>
+</div>
+
+</div>
+{{ splash }}
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;showTopBar&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Muhit&quot;},&quot;skipIntro&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Muhit&quot;},&quot;introSound&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Muhit&quot;},&quot;uiSounds&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Muhit&quot;},&quot;accountError&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Holatlar&quot;},&quot;catalogFail&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Holatlar&quot;},&quot;startBalance&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:12000,&quot;min&quot;:0,&quot;max&quot;:1000000,&quot;step&quot;:1000,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Holatlar&quot;},&quot;payMinutes&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:30,&quot;min&quot;:1,&quot;max&quot;:30,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Holatlar&quot;}}">
+class Component extends DCLogic {
+  scrollRef = React.createRef(); mainRef = React.createRef(); heroRef = React.createRef(); framesRef = React.createRef(); epsRef = React.createRef();
+  cfRef = React.createRef(); payRef = React.createRef(); holdRef = React.createRef();
+  pauseUntil = 0;
+  PRICES = { Anime: [19000, 49000, 169000], Drama: [15000, 39000, 139000], Kino: [17000, 45000, 155000], Barchasi: [27000, 69000, 239000] };
+  DURS = [1, 3, 12];
+  TM = { ANIME: 'Anime', DRAMA: 'Drama', SERIAL: 'Serial', KINO: 'Kino' };
+  MAIN = ['home', 'search', 'premium', 'profile'];
+  LOGO = ['157,301 318,140 318,194 183,329', '318,245 211,352 320,461 347,434 265,352 345,272', '372,193 399,220 372,247 345,220', '428,249 481,302 398,385 344,385 427,302 401,276'];
+  CAT = [
+    { id: 'qora-qilich', title: 'Qora qilich', type: 'ANIME', year: 2025, rating: 8.9, age: '16+', premium: true, isNew: true, popular: true, eps: 24, epMin: 24, genres: ['Jangari', 'Fantastika', 'Sarguzasht'], country: 'Yaponiya', hue: 25, desc: 'Qadimiy imperiyaning soʻnggi qilichbozi Ren oʻz ustozini oʻldirgan sirli ordenni izlab yoʻlga chiqadi. Uning qoʻlidagi qora qilich har bir jangda egasidan bitta xotirani olib ketadi. Ren qasos va oʻzligini saqlab qolish oʻrtasida tanlov qilishi kerak.' },
+    { id: 'shamol', title: 'Shamol vodiysi', type: 'ANIME', year: 2024, rating: 8.6, age: '12+', premium: false, isNew: false, popular: true, eps: 12, epMin: 24, genres: ['Fantastika', 'Drama'], country: 'Yaponiya', hue: 190, desc: 'Togʻlar orasidagi kichik qishloqda shamol bilan gaplasha oladigan qiz yashaydi. Vodiyga notanish kemalar kelganda, u qishloqni qutqarish uchun qadimiy afsonani haqiqatga aylantirishi lozim. Doʻstlik, tabiat va jasorat haqida iliq hikoya.' },
+    { id: 'oy-ostida', title: 'Oy ostidagi shahar', type: 'DRAMA', year: 2025, rating: 8.4, age: '16+', premium: true, isNew: true, popular: true, eps: 16, epMin: 60, genres: ['Romantika', 'Drama'], country: 'Janubiy Koreya', hue: 265, desc: 'Tungi smenada ishlaydigan shifokor va tunda kitob yozadigan muallif tasodifan bir uyda qoʻshni boʻlib qoladi. Ular bir-birini hech koʻrmaydi, faqat eshik oldida qoldirilgan xatlar orqali tanishadi. Sekin, nozik va samimiy romantik drama.' },
+    { id: 'ekspress', title: 'Soʻnggi ekspress', type: 'KINO', year: 2024, rating: 7.9, age: '16+', premium: true, isNew: false, popular: true, film: true, mins: 124, genres: ['Triller', 'Jangari'], country: 'AQSh', hue: 50, desc: 'Tungi poyezdda ketayotgan sobiq detektiv vagonlardan birida sodir boʻlgan oʻgʻirlik ortida katta fitna yotganini sezadi. Keyingi bekatgacha atigi uch soat bor, yoʻlovchilar orasida esa hech kim koʻringanidek emas. Taranglik soʻnggi daqiqagacha saqlanadi.' },
+    { id: 'kumush-tun', title: 'Kumush tun', type: 'ANIME', year: 2023, rating: 8.7, age: '12+', premium: false, isNew: false, popular: true, eps: 26, epMin: 23, genres: ['Mistika', 'Sarguzasht'], country: 'Yaponiya', hue: 225, desc: 'Har yuz yilda bir marta keladigan kumush tunda odamlar dunyosi va ruhlar olami orasidagi chegara ochiladi. Yosh ibodatxona qoʻriqchisi Aoi yoʻqolgan ukasini qaytarish uchun shu eshikdan oʻtadi. Atmosferali va sirli sarguzasht.' },
+    { id: 'sakura', title: 'Sakura fasli', type: 'DRAMA', year: 2024, rating: 8.1, age: '12+', premium: false, isNew: false, popular: false, eps: 20, epMin: 45, genres: ['Romantika', 'Komediya'], country: 'Yaponiya', hue: 350, desc: 'Tokioga koʻchib kelgan talaba qiz bahor faslida eski kafe egasining nabirasi bilan tanishadi. Kafeni yopilishdan saqlab qolish uchun ular birgalikda kutilmagan reja tuzadi. Kulgili, yengil va yurakni isituvchi drama.' },
+    { id: 'temir-qanot', title: 'Temir qanot', type: 'KINO', year: 2025, rating: 8.0, age: '12+', premium: true, isNew: true, popular: false, film: true, mins: 138, genres: ['Fantastika', 'Jangari'], country: 'AQSh', hue: 210, desc: 'Yaqin kelajakda sinov uchuvchisi Mira eksperimental qiruvchi samolyot halokatidan omon qoladi. Tergov davomida u loyiha ortida yashiringan haqiqatni ochadi va oʻz jamoasiga qarshi chiqishga majbur boʻladi. Kuchli vizual effektlarga boy fantastik jangari.' },
+    { id: 'uzoq-yol', title: 'Uzoq yoʻl', type: 'SERIAL', year: 2025, rating: 8.3, age: '16+', premium: true, isNew: true, popular: false, eps: 10, epMin: 52, genres: ['Drama', 'Tarixiy'], country: 'Turkiya', hue: 70, desc: 'XIX asr oxirida Buyuk ipak yoʻli boʻylab ketayotgan karvon taqdiri haqida. Savdogar oila, sayyoh rassom va qochoq askar — har biri bu yoʻlga oʻz siri bilan chiqqan. Tarixiy manzaralar va murakkab qahramonlar.' },
+    { id: 'yashirin-bog', title: 'Yashirin bogʻ', type: 'ANIME', year: 2022, rating: 8.2, age: '6+', premium: false, isNew: false, popular: false, eps: 13, epMin: 24, genres: ['Fantastika', 'Oilaviy'], country: 'Yaponiya', hue: 145, desc: 'Buvisining eski uyiga kelgan bola devor ortida vaqt toʻxtagan sehrli bogʻni topadi. Bogʻdagi jonzotlar unga oilasining unutilgan tarixini aytib beradi. Butun oila bilan koʻrish uchun mos, yumshoq va chiroyli anime.' },
+    { id: 'bahor', title: 'Bahor kelganda', type: 'DRAMA', year: 2023, rating: 7.8, age: '12+', premium: true, isNew: false, popular: false, eps: 16, epMin: 58, genres: ['Romantika'], country: 'Xitoy', hue: 320, desc: 'Oʻn yildan soʻng ona shahriga qaytgan arxitektor maktabdagi ilk muhabbati bilan qayta uchrashadi. Endi ular bir loyiha ustida ishlashlari kerak, oʻtmishdagi ayrilishning sababi esa hali ochilmagan. Hissiy va chiroyli suratga olingan drama.' },
+    { id: 'chol', title: 'Choʻl sirlari', type: 'KINO', year: 2023, rating: 7.6, age: '12+', premium: false, isNew: false, popular: false, film: true, mins: 112, genres: ['Sarguzasht', 'Detektiv'], country: 'Fransiya', hue: 60, desc: 'Arxeolog ayol choʻl oʻrtasida qum ostidan chiqqan qadimiy shahar xaritasini topadi. Unga ergashgan ekspeditsiya tez orada bu yerda yolgʻiz emasligini tushunadi. Klassik sarguzasht filmlari ruhidagi detektiv hikoya.' },
+    { id: 'ruhlar', title: 'Ruhlar ovchisi', type: 'ANIME', year: 2025, rating: 8.8, age: '16+', premium: true, isNew: true, popular: true, eps: 12, epMin: 24, genres: ['Jangari', 'Mistika'], country: 'Yaponiya', hue: 295, desc: 'Tunda shahar koʻchalarida faqat u koʻra oladigan ruhlar paydo boʻladi. Talaba Kaito ularni ovlaydigan maxfiy jamiyatga qoʻshiladi, lekin tez orada ruhlar ham qaysidir maʼnoda odam ekanini anglaydi. Dinamik janglar va qorongʻi syujet.' },
+    { id: 'ikki-dunyo', title: 'Ikki dunyo', type: 'SERIAL', year: 2024, rating: 8.0, age: '16+', premium: false, isNew: false, popular: true, eps: 8, epMin: 55, genres: ['Fantastika', 'Triller'], country: 'Janubiy Koreya', hue: 175, desc: 'Bir kuni ertalab uygʻongan jurnalist oʻzini parallel dunyoda, boshqa hayot kechirayotgan holda topadi. Ikkala dunyo ham uning qarorlariga bogʻliq, vaqt esa kamayib bormoqda. Har bir qismi savol bilan tugaydigan fantastik triller.' }
+  ];
+  state = {
+    splash: true, splashOut: false, wide: false,
+    screen: { name: 'home' }, tab: 'home', hist: [], navKey: 0, navDir: 'fade',
+    premTab: 'plans', balance: 12000, coins: 1840, sub: null, phoneShared: false, lang: 'uz', codeUsed: false,
+    saved: ['kumush-tun', 'sakura', 'ruhlar'],
+    progress: { 'qora-qilich': { ep: 2, prog: 0.42 }, 'oy-ostida': { ep: 4, prog: 0.7 }, 'kumush-tun': { ep: 0, prog: 0.25 } },
+    catalog: 'ok', q: '', cat: 'Barchasi', filter: null,
+    heroIdx: 0, frameIdx: 0, descOpen: false, selEp: 0,
+    planType: 'Barchasi', planDur: 0,
+    confirm: null, cfShown: false, holding: false,
+    pay: null, payShown: false, now: Date.now(), copied: null,
+    balInput: '27000', giftUser: '', donAmt: '10000', donNote: '',
+    coinTab: 0, code: '', finTab: 0, libTab: 0, faq: -1,
+    toastText: '', toastOn: false, compact: false, kbd: false, acctErr: false, acctLoading: false,
+    tx: [
+      { inc: true, name: 'Hisob toʻldirildi', date: 'Bugun, 14:20', amt: 27000 },
+      { inc: false, name: 'Donat · Qora qilich', date: 'Kecha, 21:05', amt: 15000 },
+      { inc: false, name: 'Premium · Anime, 1 oy', date: '2-oktabr', amt: 19000 },
+      { inc: true, name: 'Hisob toʻldirildi', date: '2-oktabr', amt: 19000 }
+    ],
+    ctx: [
+      { inc: true, name: 'Kunlik bonus', date: 'Bugun, 09:12', amt: 20 },
+      { inc: true, name: 'Kunlik bonus', date: 'Kecha, 08:47', amt: 20 },
+      { inc: true, name: 'Oylik tarif uchun bonus', date: '2-oktabr', amt: 100 }
+    ]
+  };
+
+  componentDidMount() {
+    const p = this.props;
+    let th = 'dark'; try { th = localStorage.getItem('ftv-theme') || 'dark'; } catch (_) {}
+    this.setState({ theme: th }, () => this.applyTheme());
+    if (window.matchMedia) { this.mq = window.matchMedia('(prefers-color-scheme: light)'); this.onMq = () => { if (this.state.theme === 'auto') this.applyTheme(); }; this.mq.addEventListener && this.mq.addEventListener('change', this.onMq); }
+    this.setState({ acctErr: !!p.accountError, catalog: p.catalogFail ? 'error' : 'ok', balance: p.startBalance ?? 12000, wide: window.innerWidth > 520 });
+    this.onResize = () => this.setState({ wide: window.innerWidth > 520 });
+    window.addEventListener('resize', this.onResize);
+    document.addEventListener('pointerdown', this.onTapSfx, true);
+    if (p.skipIntro) this.setState({ splash: false });
+    else {
+      if (p.introSound ?? true) this.introSound();
+      this.t1 = setTimeout(() => {
+        this.setState({ splashOut: true });
+        const m = this.mainRef.current;
+        if (m) m.animate([{ opacity: 0, transform: 'scale(.94)', filter: 'blur(6px)' }, { opacity: 1, transform: 'none', filter: 'blur(0)' }], { duration: 800, easing: 'cubic-bezier(.32,.72,0,1)' });
+      }, 2900);
+      this.t2 = setTimeout(() => this.setState({ splash: false }), 3600);
+    }
+    this.heroTimer = setInterval(() => this.autoHero(), 5000);
+    this.tick = setInterval(() => { if (this.state.payShown) this.setState({ now: Date.now() }); }, 1000);
+  }
+  componentWillUnmount() { document.removeEventListener('pointerdown', this.onTapSfx, true); if (this.ac) this.ac.close(); clearTimeout(this.t1); clearTimeout(this.t2); clearInterval(this.heroTimer); clearInterval(this.tick); window.removeEventListener('resize', this.onResize); }
+  componentDidUpdate(pp) {
+    const p = this.props, q = this._pp || {};
+    this._pp = { accountError: p.accountError, catalogFail: p.catalogFail, startBalance: p.startBalance };
+    if ('accountError' in q && q.accountError !== p.accountError) this.setState({ acctErr: !!p.accountError });
+    if ('catalogFail' in q && q.catalogFail !== p.catalogFail) this.setState({ catalog: p.catalogFail ? 'error' : 'ok' });
+    if ('startBalance' in q && q.startBalance !== p.startBalance && p.startBalance != null) this.setState({ balance: p.startBalance });
+    if ((this._nk ?? 0) !== this.state.navKey) {
+      this._nk = this.state.navKey;
+      const el = this.scrollRef.current; if (!el) return;
+      el.scrollTop = 0;
+      const d = this.state.navDir, E = 'cubic-bezier(.32,.72,0,1)';
+      const kf = d === 'push' ? [{ transform: 'translateX(38%)', opacity: 0 }, { transform: 'translateX(0)', opacity: 1 }]
+        : d === 'pop' ? [{ transform: 'translateX(-22%)', opacity: 0 }, { transform: 'translateX(0)', opacity: 1 }]
+        : [{ transform: 'translateY(10px) scale(.985)', opacity: 0 }, { transform: 'none', opacity: 1 }];
+      el.animate(kf, { duration: d === 'fade' ? 340 : 480, easing: E });
+      if (this.state.screen.name === 'content' && this.state.selEp > 0) setTimeout(() => { const r = this.epsRef.current; if (r) r.scrollLeft = this.state.selEp * 166 - 16; }, 40);
+    }
+  }
+
+  fmt(n) { return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ' '); }
+  som(n) { return this.fmt(n) + ' soʻm'; }
+  byId(id) { return this.CAT.find(c => c.id === id) || this.CAT[0]; }
+  epMin(c) { return c.film ? c.mins : c.epMin; }
+  nowLabel() { const d = new Date(); return `Bugun, ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`; }
+  UP = ['23-50-59', '23-36-22', '23-37-00', '23-51-19', '23-51-10', '23-50-49'];
+  IMG = {
+    'qora-qilich': ['u5', 'u3', 'u0'],
+    'shamol': ['u4', 'u0', 'u1'],
+    'kumush-tun': ['u2', 'u3', 'u5'],
+    'yashirin-bog': ['u1', 'u4', 'u2'],
+    'ruhlar': ['u3', 'u5', 'u2'],
+    'oy-ostida': ['1488426862026-3ee34a7d66df', '1514565131-fce0801e5785', '1518199266791-5375a83190b7'],
+    'ekspress': ['1503376780353-7e6692767b70', '1474487548417-781cb71495f3', '1493238792000-8113da705763'],
+    'sakura': ['1529626455594-4ff0802cfb7e', '1522383225653-ed111181a951', '1529333166437-7750a6dd5a70'],
+    'temir-qanot': ['1513106580091-1d82408b8cd6', '1451187580459-43490279c0fa', '1462331940025-496dfbfc7564'],
+    'uzoq-yol': ['1518709268805-4e9042af9f23', '1506794778202-cad84cf45f1d', '1509316785289-025f5b846b35'],
+    'bahor': ['1465495976277-4387d4b0b4c6', '1532274402911-5a369e4c4bb5', '1544005313-94ddf0286df2'],
+    'chol': ['1473580044384-7ba9967e16a0', '1519003722824-194d4455a60c', '1509316785289-025f5b846b35'],
+    'ikki-dunyo': ['1513106580091-1d82408b8cd6', '1524504388940-b1c1722653e1', '1508739773434-c26b3d09e071']
+  };
+  imgUrl(k) {
+    if (k[0] === 'u') { const n = this.UP[+k.slice(1)], R = window.__resources || {}; return { u: R['up' + k.slice(1)] || `uploads/photo_2026-10-08_${n}.jpg`, pos: k === 'u3' ? 'center 42%' : 'center 12%' }; }
+    return { u: (window.__resources || {})['us' + k] || `https://images.unsplash.com/photo-${k}?w=900&q=80&auto=format&fit=crop`, pos: 'center' };
+  }
+  art(c, v = 0) {
+    const h = c.hue, h2 = (h + 40) % 360;
+    const pos = [['30% 18%', '85% 95%'], ['75% 30%', '10% 90%'], ['50% 75%', '90% 8%']][v % 3];
+    const ids = this.IMG[c.id];
+    if (ids) { const im = this.imgUrl(ids[v % ids.length]); return `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0) 40%, rgba(0,0,0,0.35)), url("${im.u}") ${im.pos}/cover no-repeat, linear-gradient(165deg, oklch(0.27 0.07 ${h}), oklch(0.13 0.025 ${h}))`; }
+    return `radial-gradient(110% 70% at ${pos[0]}, oklch(0.56 0.16 ${h} / 0.95), transparent 62%), radial-gradient(80% 60% at ${pos[1]}, oklch(0.42 0.13 ${h2} / 0.9), transparent 70%), linear-gradient(165deg, oklch(0.27 0.07 ${h}), oklch(0.13 0.025 ${h}))`;
+  }
+  P = {
+    home: ['D:M3 10a2 2 0 0 1 .7-1.5l7-6a2 2 0 0 1 2.6 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z', 'M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8', 'M3 10a2 2 0 0 1 .7-1.5l7-6a2 2 0 0 1 2.6 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'],
+    search: ['M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z', 'm21 21-4.3-4.3'],
+    crown: ['D:M11.56 3.27a.5.5 0 0 1 .88 0l2.95 5.6a1 1 0 0 0 1.52.3l4.27-3.67a.5.5 0 0 1 .8.52l-2.83 10.25a1 1 0 0 1-.96.73H5.81a1 1 0 0 1-.96-.73L2.02 6.02a.5.5 0 0 1 .8-.52l4.27 3.67a1 1 0 0 0 1.52-.3z', 'M11.56 3.27a.5.5 0 0 1 .88 0l2.95 5.6a1 1 0 0 0 1.52.3l4.27-3.67a.5.5 0 0 1 .8.52l-2.83 10.25a1 1 0 0 1-.96.73H5.81a1 1 0 0 1-.96-.73L2.02 6.02a.5.5 0 0 1 .8-.52l4.27 3.67a1 1 0 0 0 1.52-.3z', 'M5 21h14'],
+    user: ['D:M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z', 'M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2', 'M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z'],
+    back: ['m15 18-6-6 6-6'], chevR: ['m9 18 6-6-6-6'], chevD: ['m6 9 6 6 6-6'], close: ['M18 6 6 18', 'm6 6 12 12'],
+    dots: ['F:M5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM19 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z'],
+    bookmark: ['m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z'], bookmarkF: ['F:M7 2.2h10A2.8 2.8 0 0 1 19.8 5v16a.8.8 0 0 1-1.2.7L12 17.9l-6.6 3.8a.8.8 0 0 1-1.2-.7V5A2.8 2.8 0 0 1 7 2.2z'],
+    share: ['M12 2v13', 'm16 6-4-4-4 4', 'M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8'],
+    heart: ['M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z'],
+    play: ['F:M6.5 4.6v14.8a1.3 1.3 0 0 0 2 1.1l11.6-7.4a1.3 1.3 0 0 0 0-2.2L8.5 3.5a1.3 1.3 0 0 0-2 1.1z'],
+    star: ['F:M11.53 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.8a.53.53 0 0 1 .3-.91l5.16-.75a2.12 2.12 0 0 0 1.6-1.16z'],
+    coin: ['D:M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z', 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z', 'M12 7.2l1.4 2.9 3.2.5-2.3 2.2.6 3.2-2.9-1.5-2.9 1.5.6-3.2-2.3-2.2 3.2-.5z'],
+    wallet: ['D:M3 7h17a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2z', 'M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1', 'M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4'],
+    copy: ['M10 8h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2z', 'M4 16a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2'], check: ['M20 6 9 17l-5-5'],
+    clock: ['M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z', 'M12 6v6l4 2'],
+    gift: ['D:M5 12h14v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z', 'M4 8h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z', 'M12 8v13', 'M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7', 'M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5'],
+    help: ['M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z', 'M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3', 'M12 17h.01'],
+    receipt: ['M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1z', 'M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8', 'M12 17.5v-11'],
+    library: ['m16 6 4 14', 'M12 6v14', 'M8 8v12', 'M4 4v16'],
+    invite: ['M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2', 'M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z', 'M19 8v6', 'M22 11h-6'],
+    phone: ['M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z'],
+    arrIn: ['M17 7 7 17', 'M17 17H7V7'], arrOut: ['M7 7h10v10', 'M7 17 17 7'],
+    ticket: ['D:M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z', 'M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z', 'M13 5v2', 'M13 17v2', 'M13 11v2'],
+    calendar: ['M8 2v4', 'M16 2v4', 'M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z', 'M3 10h18'],
+    chat: ['M7.9 20A9 9 0 1 0 4 16.1L2 22z'],
+    alert: ['m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3', 'M12 9v4', 'M12 17h.01'],
+    send: ['M14.54 21.69a.5.5 0 0 0 .94-.03l6.5-19a.5.5 0 0 0-.64-.63l-19 6.5a.5.5 0 0 0-.02.93l7.93 3.18a2 2 0 0 1 1.11 1.11z', 'm21.85 2.15-10.94 10.94'],
+    moon: ['M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z'],
+    sun: ['M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z', 'M12 2v2', 'M12 20v2', 'm4.93 4.93 1.41 1.41', 'm17.66 17.66 1.41 1.41', 'M2 12h2', 'M20 12h2', 'm6.34 17.66-1.41 1.41', 'm19.07 4.93-1.41 1.41'],
+    auto: ['M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z', 'F:M12 3a9 9 0 0 1 0 18z']
+  };
+  icon(n, sz = 22, col = 'currentColor', sw = 1.7) {
+    const h = React.createElement;
+    return h('svg', { width: sz, height: sz, viewBox: '0 0 24 24', fill: 'none', strokeWidth: sw, strokeLinecap: 'round', strokeLinejoin: 'round', style: { display: 'block', flex: 'none', stroke: col } },
+      this.P[n].map((d, i) => d.startsWith('F:') ? h('path', { key: i, d: d.slice(2), style: { fill: col, stroke: 'none' } }) : d.startsWith('D:') ? h('path', { key: i, d: d.slice(2), style: { fill: col, fillOpacity: 0.14, stroke: 'none' } }) : h('path', { key: i, d })));
+  }
+  logo(sz, col) {
+    const h = React.createElement;
+    return h('svg', { width: sz, height: sz, viewBox: '150 135 338 335', style: { display: 'block', flex: 'none' } }, this.LOGO.map((pts, i) => h('polygon', { key: i, points: pts, style: { fill: col } })));
+  }
+  rootRef = React.createRef();
+  LIGHT = { c0: '#E6E4E0', bg: '#F6F5F2', tx: '#141416', s1: '#FFFFFF', s2: '#ECEAE7', s3: '#F2F0ED', s4: '#EBE9E5', s5: '#E4E2DE', thumb: '#FFFFFF', inset: '#F4F2EF', s6: '#B9B6B1',
+    m1: '#67635E', m2: '#77736E', m3: '#8C8883', m4: '#B3AFAA', t2: '#4A4743', t3: '#3A3734', t4: '#3D3A37', rt: '#D11F26', gold: '#A06E10', green: '#15884A', amber: '#9E6400',
+    ln: '0,0,0', bgc: '246,245,242', glass: '255,255,255' };
+  resolvedTheme() { const t = this.state.theme; if (t === 'auto') return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'; return t; }
+  applyTheme() {
+    const el = this.rootRef.current; if (!el) return;
+    const light = this.resolvedTheme() === 'light';
+    Object.entries(this.LIGHT).forEach(([k, v]) => light ? el.style.setProperty('--' + k, v) : el.style.removeProperty('--' + k));
+    document.documentElement.style.colorScheme = light ? 'light' : 'dark';
+    document.body.style.background = light ? '#E6E4E0' : '#050506';
+    this._applied = this.state.theme;
+  }
+  setTheme(t) {
+    if (t === this.state.theme) return;
+    try { localStorage.setItem('ftv-theme', t); } catch (_) {}
+    const run = () => { this.setState({ theme: t }, () => this.applyTheme()); };
+    if (document.startViewTransition) document.startViewTransition(() => new Promise(r => this.setState({ theme: t }, () => { this.applyTheme(); r(); })));
+    else run();
+  }
+  introSound() {
+    const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+    let ctx; try { ctx = new AC(); } catch (_) { return; }
+    const t0 = performance.now();
+    const play = () => {
+      const late = (performance.now() - t0) / 1000;
+      if (late > 1.6) { ctx.close(); return; }
+      const T = ctx.currentTime - late;
+      const master = ctx.createGain(); master.gain.value = 0.55;
+      const comp = ctx.createDynamicsCompressor(); master.connect(comp); comp.connect(ctx.destination);
+      const verb = ctx.createConvolver(), vl = ctx.sampleRate * 1.8, ir = ctx.createBuffer(2, vl, ctx.sampleRate);
+      for (let c = 0; c < 2; c++) { const d = ir.getChannelData(c); for (let i = 0; i < vl; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / vl, 3); }
+      verb.buffer = ir; const vg = ctx.createGain(); vg.gain.value = 0.32; verb.connect(vg); vg.connect(master);
+      const out = (n, wet) => { n.connect(master); if (wet) n.connect(verb); };
+      const nb = ctx.createBuffer(1, ctx.sampleRate * 2, ctx.sampleRate), nd = nb.getChannelData(0);
+      for (let i = 0; i < nd.length; i++) nd[i] = Math.random() * 2 - 1;
+      const at = s => Math.max(T + s, ctx.currentTime);
+      const whoosh = (s, dur, f0, f1, vol, pan) => {
+        const src = ctx.createBufferSource(), bp = ctx.createBiquadFilter(), g = ctx.createGain(), p = ctx.createStereoPanner ? ctx.createStereoPanner() : null;
+        src.buffer = nb; bp.type = 'bandpass'; bp.Q.value = 1.4;
+        const a = at(s); bp.frequency.setValueAtTime(f0, a); bp.frequency.exponentialRampToValueAtTime(f1, a + dur);
+        g.gain.setValueAtTime(0.0001, a); g.gain.exponentialRampToValueAtTime(vol, a + dur * 0.7); g.gain.exponentialRampToValueAtTime(0.0001, a + dur);
+        src.connect(bp); bp.connect(g);
+        if (p) { p.pan.setValueAtTime(pan, a); p.pan.linearRampToValueAtTime(0, a + dur); g.connect(p); out(p, true); } else out(g, true);
+        src.start(a); src.stop(a + dur + 0.05);
+      };
+      const thud = (s, f, vol) => {
+        const o = ctx.createOscillator(), g = ctx.createGain(), a = at(s);
+        o.type = 'sine'; o.frequency.setValueAtTime(f * 2.2, a); o.frequency.exponentialRampToValueAtTime(f, a + 0.12);
+        g.gain.setValueAtTime(0.0001, a); g.gain.exponentialRampToValueAtTime(vol, a + 0.008); g.gain.exponentialRampToValueAtTime(0.0001, a + 0.5);
+        o.connect(g); out(g, true); o.start(a); o.stop(a + 0.55);
+        const c = ctx.createBufferSource(), hp = ctx.createBiquadFilter(), cg = ctx.createGain();
+        c.buffer = nb; hp.type = 'highpass'; hp.frequency.value = 2500;
+        cg.gain.setValueAtTime(vol * 0.35, a); cg.gain.exponentialRampToValueAtTime(0.0001, a + 0.05);
+        c.connect(hp); hp.connect(cg); out(cg, false); c.start(a); c.stop(a + 0.06);
+      };
+      const tone = (s, f, dur, vol, type) => {
+        const o = ctx.createOscillator(), g = ctx.createGain(), a = at(s);
+        o.type = type || 'sine'; o.frequency.value = f;
+        g.gain.setValueAtTime(0.0001, a); g.gain.exponentialRampToValueAtTime(vol, a + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, a + dur);
+        o.connect(g); out(g, true); o.start(a); o.stop(a + dur + 0.05);
+      };
+      [[0, -0.7], [0.14, 0.7], [0.24, 0], [0.36, -0.5]].forEach(([d, pan], i) => { whoosh(d, 0.45, 300, 3200, 0.22, pan); thud(d + 0.42, [62, 70, 58, 66][i], 0.5); });
+      thud(0.82, 46, 0.9);
+      const lp = ctx.createBiquadFilter(), pg = ctx.createGain(); lp.type = 'lowpass'; lp.frequency.value = 900; pg.gain.value = 1; lp.connect(pg); out(pg, true);
+      [110, 164.8, 220, 277.2].forEach(f => { const o = ctx.createOscillator(), g = ctx.createGain(), a = at(0.82); o.type = 'sawtooth'; o.frequency.value = f; o.detune.value = Math.random() * 10 - 5;
+        g.gain.setValueAtTime(0.0001, a); g.gain.exponentialRampToValueAtTime(0.035, a + 0.25); g.gain.exponentialRampToValueAtTime(0.0001, a + 2.6); o.connect(g); g.connect(lp); o.start(a); o.stop(a + 2.7); });
+      whoosh(1.2, 0.9, 2500, 9000, 0.07, -0.4);
+      [1318.5, 1760, 2217.5, 2637].forEach((f, i) => tone(1.3 + i * 0.07, f, 1.2, 0.05));
+      'FilasofTV'.split('').forEach((_, i) => tone(1.32 + i * 0.05, 3000 + i * 180, 0.08, 0.012, 'triangle'));
+      whoosh(2.85, 0.7, 4000, 250, 0.12, 0);
+      setTimeout(() => ctx.close && ctx.close(), 4500);
+    };
+    if (ctx.state === 'running') play();
+    else {
+      const go = () => { ['pointerdown', 'touchstart', 'keydown'].forEach(e => window.removeEventListener(e, go)); ctx.resume().then(play).catch(() => {}); };
+      ctx.resume().then(() => { if (ctx.state === 'running') play(); else ['pointerdown', 'touchstart', 'keydown'].forEach(e => window.addEventListener(e, go, { once: true })); }).catch(() => {});
+    }
+  }
+  splashEl() {
+    const h = React.createElement, out = this.state.splashOut;
+    const dirs = [['300px', '-300px', 0], ['-380px', '0px', 140], ['0px', '-360px', 360], ['380px', '90px', 240]];
+    const streak = (top, delay, w) => h('div', { style: { position: 'absolute', top, left: 0, width: w, height: 1, background: 'linear-gradient(90deg, transparent, #E5262D, rgba(255,255,255,0.8), transparent)', animation: `ftvStreak 1.1s cubic-bezier(.5,0,.2,1) ${delay}ms both` } });
+    return h('div', { style: { position: 'absolute', inset: 0, zIndex: 100, background: 'radial-gradient(70% 50% at 50% 45%, #141012 0%, #0A0A0B 70%)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', animation: out ? 'ftvOut .7s cubic-bezier(.32,.72,0,1) forwards' : 'none', pointerEvents: out ? 'none' : 'auto' } },
+      streak('41%', 60, '70%'), streak('58%', 260, '55%'), streak('49%', 520, '40%'),
+      h('div', { style: { position: 'absolute', top: '50%', left: '50%', width: 360, height: 360, margin: '-230px 0 0 -180px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(229,38,45,0.32), rgba(229,38,45,0) 65%)', animation: 'ftvGlow 2.6s ease-out both' } }),
+      h('svg', { width: 150, height: 150, viewBox: '150 135 338 335', style: { position: 'relative', overflow: 'visible', animation: 'ftvSettle 2.2s cubic-bezier(.16,1,.3,1) both' } },
+        h('defs', null,
+          h('clipPath', { id: 'ftvClip' }, this.LOGO.map((pts, i) => h('polygon', { key: i, points: pts }))),
+          h('linearGradient', { id: 'ftvSweepG', x1: 0, x2: 1, y1: 0, y2: 0 }, h('stop', { offset: 0, stopColor: '#fff', stopOpacity: 0 }), h('stop', { offset: 0.5, stopColor: '#fff', stopOpacity: 0.9 }), h('stop', { offset: 1, stopColor: '#fff', stopOpacity: 0 }))),
+        this.LOGO.map((pts, i) => h('polygon', { key: i, points: pts, fill: '#E5262D', style: { '--fx': dirs[i][0], '--fy': dirs[i][1], transformBox: 'fill-box', transformOrigin: 'center', animation: `ftvPiece 1.1s cubic-bezier(.16,1,.3,1) ${dirs[i][2]}ms both` } })),
+        h('g', { clipPath: 'url(#ftvClip)' }, h('rect', { x: 150, y: 100, width: 110, height: 420, fill: 'url(#ftvSweepG)', style: { animation: 'ftvSweep 1s cubic-bezier(.45,0,.2,1) 1.25s both' } }))),
+      h('div', { style: { position: 'relative', marginTop: 34, display: 'flex', fontSize: 30, fontWeight: 800, letterSpacing: '-0.03em' } },
+        'FilasofTV'.split('').map((l, i) => h('span', { key: i, style: { display: 'inline-block', color: i >= 7 ? '#E5262D' : '#F5F3F1', animation: `ftvLetter .8s cubic-bezier(.16,1,.3,1) ${1300 + i * 45}ms both` } }, l))),
+      h('div', { style: { position: 'relative', marginTop: 10, fontSize: 11, fontWeight: 600, letterSpacing: '0.34em', color: '#8E8A86', textTransform: 'uppercase', animation: 'ftvFadeUp .8s ease 1.85s both' } }, 'Anime · Drama · Kino'),
+      h('div', { style: { position: 'absolute', bottom: 'calc(52px + env(safe-area-inset-bottom))', width: 120, height: 2, borderRadius: 2, background: 'rgba(255,255,255,0.08)', overflow: 'hidden' } },
+        h('div', { style: { height: '100%', background: '#E5262D', transformOrigin: 'left', animation: 'ftvBar 2.7s cubic-bezier(.65,0,.35,1) both' } })));
+  }
+
+  sfx(kind) {
+    if (!(this.props.uiSounds ?? true)) return;
+    const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+    if (!this.ac) { try { this.ac = new AC(); } catch (_) { return; } this.acOut = this.ac.createGain(); this.acOut.gain.value = 0.5; this.acOut.connect(this.ac.destination); }
+    const ctx = this.ac; if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+    const t = ctx.currentTime + 0.005;
+    const tone = (f, s, dur, vol, type = 'sine', f2) => {
+      const o = ctx.createOscillator(), g = ctx.createGain(); o.type = type;
+      o.frequency.setValueAtTime(f, t + s); if (f2) o.frequency.exponentialRampToValueAtTime(f2, t + s + dur);
+      g.gain.setValueAtTime(0.0001, t + s); g.gain.exponentialRampToValueAtTime(vol, t + s + 0.006); g.gain.exponentialRampToValueAtTime(0.0001, t + s + dur);
+      o.connect(g); g.connect(this.acOut); o.start(t + s); o.stop(t + s + dur + 0.02);
+    };
+    const tick = (s, freq, vol) => {
+      if (!this.nb) { this.nb = ctx.createBuffer(1, ctx.sampleRate * 0.02, ctx.sampleRate); const d = this.nb.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / d.length, 14); }
+      const n = ctx.createBufferSource(), bp = ctx.createBiquadFilter(), g = ctx.createGain();
+      n.buffer = this.nb; bp.type = 'bandpass'; bp.frequency.value = freq; bp.Q.value = 2.5; g.gain.value = vol;
+      n.connect(bp); bp.connect(g); g.connect(this.acOut); n.start(t + s);
+    };
+    ({
+      tap: () => { tick(0, 3800, 0.32); tone(2400, 0, 0.018, 0.018); },
+      tab: () => {}, push: () => {}, back: () => {}, copy: () => {},
+      toggle: () => { tone(1500, 0, 0.035, 0.03); },
+      save: () => { tone(1318.5, 0, 0.06, 0.035); tone(1975.5, 0.045, 0.08, 0.03); },
+      pop: () => {},
+      success: () => { tone(1046.5, 0, 0.12, 0.04, 'triangle'); tone(1568, 0.07, 0.18, 0.035, 'triangle'); },
+      error: () => { tone(420, 0, 0.08, 0.05, 'triangle'); tone(320, 0.07, 0.12, 0.05, 'triangle'); }
+    }[kind] || (() => {}))();
+  }
+  onTapSfx = e => {
+    if (this.state.splash) return;
+    const b = e.target.closest && e.target.closest('button, [role="button"], a'); if (!b) return;
+    if (this.sfxNext) return; this.sfx('tap');
+  };
+  toast(t, quiet) { if (!quiet) this.sfx('pop'); clearTimeout(this.tt); this.setState({ toastText: t, toastOn: true }); this.tt = setTimeout(() => this.setState({ toastOn: false }), 2200); }
+  copy(t) { this.sfx('copy'); try { navigator.clipboard && navigator.clipboard.writeText(t).catch(() => {}); } catch (e) {} }
+  covers(c) { const s = this.state.sub; return !c.premium || (s && (s.type === 'Barchasi' || this.TM[c.type] === s.type)); }
+  toggleSave(id) {
+    const on = this.state.saved.includes(id);
+    this.setState(s => ({ saved: on ? s.saved.filter(x => x !== id) : [...s.saved, id] }));
+    this.sfx(on ? 'toggle' : 'save'); this.toast(on ? 'Saqlanganlardan olindi' : 'Saqlanganlarga qoʻshildi', true);
+  }
+
+  goMain(name, extra = {}) {
+    const s = this.state;
+    this.sfx('tab');
+    if (s.screen.name === name) { this.setState(extra); if (name !== 'premium') this.toTop(); return; }
+    this.setState(st => ({ ...extra, screen: { name }, tab: name, hist: name === 'home' ? [] : [{ name: 'home' }], navKey: st.navKey + 1, navDir: 'fade', compact: false }));
+  }
+  push(scr, extra = {}) { this.sfx('push'); this.setState(st => ({ ...extra, hist: [...st.hist, st.screen], screen: scr, navKey: st.navKey + 1, navDir: 'push', compact: false })); }
+  back() {
+    const s = this.state; this.sfx('back');
+    if (s.cfShown) return this.closeConfirm();
+    if (s.payShown) return this.closePay();
+    const h = [...s.hist]; const prev = h.pop() || { name: 'home' };
+    this.setState(st => ({ screen: prev, hist: h, tab: this.MAIN.includes(prev.name) ? prev.name : st.tab, navKey: st.navKey + 1, navDir: 'pop', compact: false }));
+  }
+  toTop() { const el = this.scrollRef.current; if (el) el.scrollTo({ top: 0, behavior: 'smooth' }); }
+  onTab(name) {
+    const s = this.state;
+    if (s.tab === name) {
+      if (name === 'premium' && s.screen.name === 'premium') return;
+      if (this.MAIN.includes(s.screen.name)) return this.toTop();
+      return this.setState(st => ({ screen: { name }, hist: name === 'home' ? [] : [{ name: 'home' }], navKey: st.navKey + 1, navDir: 'pop', compact: false }));
+    }
+    this.goMain(name);
+  }
+  openContent(id, ep) { this.push({ name: 'content', id }, { selEp: ep ?? 0, descOpen: false, frameIdx: 0 }); }
+
+  onScroll = e => {
+    const y = e.currentTarget.scrollTop, sc = this.state.screen.name;
+    const has = ['search', 'profile', 'coins', 'finance', 'library', 'help', 'content'].includes(sc);
+    const c = has && y > (sc === 'content' ? 380 : 56);
+    if (c !== this.state.compact) this.setState({ compact: c });
+  };
+  edgeStart = e => {
+    if (this.MAIN.includes(this.state.screen.name)) return;
+    const t = e.touches[0], r = this.scrollRef.current.getBoundingClientRect();
+    if (t.clientX - r.left > 28) return;
+    this.sw = { x: t.clientX, y: t.clientY, dx: 0, active: false };
+  };
+  edgeMove = e => {
+    const sw = this.sw; if (!sw) return;
+    const t = e.touches[0], dx = t.clientX - sw.x, dy = t.clientY - sw.y;
+    if (!sw.active) { if (Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 8) { this.sw = null; return; } if (dx > 8) sw.active = true; else return; }
+    sw.dx = Math.max(0, dx);
+    const el = this.scrollRef.current;
+    el.style.transition = 'none'; el.style.transform = `translateX(${sw.dx}px)`; el.style.boxShadow = '-18px 0 36px rgba(0,0,0,0.55)';
+  };
+  edgeEnd = () => {
+    const sw = this.sw; this.sw = null; if (!sw || !sw.active) return;
+    const el = this.scrollRef.current, w = el.clientWidth;
+    el.style.transition = 'transform .3s cubic-bezier(.32,.72,0,1)';
+    const reset = () => { el.style.transition = ''; el.style.transform = ''; el.style.boxShadow = ''; };
+    if (sw.dx > w * 0.3) { el.style.transform = `translateX(${w}px)`; setTimeout(() => { reset(); this.back(); }, 260); }
+    else { el.style.transform = 'translateX(0px)'; setTimeout(reset, 320); }
+  };
+  pauseHero = () => { this.pauseUntil = Date.now() + 8000; };
+  autoHero() {
+    const s = this.state;
+    if (s.splash || s.screen.name !== 'home' || Date.now() < this.pauseUntil) return;
+    const el = this.heroRef.current; if (!el) return;
+    el.scrollTo({ left: ((s.heroIdx + 1) % 3) * el.clientWidth, behavior: 'smooth' });
+  }
+  goHero(i) { this.pauseHero(); const el = this.heroRef.current; if (el) el.scrollTo({ left: i * el.clientWidth, behavior: 'smooth' }); }
+  onHeroScroll = e => { const el = e.currentTarget, i = Math.round(el.scrollLeft / el.clientWidth); if (i !== this.state.heroIdx) this.setState({ heroIdx: i }); };
+  onFramesScroll = e => { const el = e.currentTarget, i = Math.round(el.scrollLeft / el.clientWidth); if (i !== this.state.frameIdx) this.setState({ frameIdx: i }); };
+  goFrame(i) { const el = this.framesRef.current; if (el) el.scrollTo({ left: i * el.clientWidth, behavior: 'smooth' }); }
+
+  openConfirm = () => this.setState({ confirm: 'step1', cfShown: true, holding: false });
+  closeConfirm = () => { this.holdEnd(); this.setState({ cfShown: false }); clearTimeout(this.cfT); this.cfT = setTimeout(() => { if (!this.state.cfShown) this.setState({ confirm: null }); }, 500); };
+  closePay = () => this.setState({ payShown: false });
+  holdStart = e => {
+    e.preventDefault(); if (this.holdRaf) return;
+    this.setState({ holding: true });
+    const t0 = performance.now();
+    const step = now => {
+      const p = Math.min(1, (now - t0) / 1200), fill = this.holdRef.current;
+      if (fill) { fill.style.transition = 'none'; fill.style.transform = `scaleX(${p})`; }
+      if (p >= 1) { this.holdRaf = null; this.finishHold(); return; }
+      this.holdRaf = requestAnimationFrame(step);
+    };
+    this.holdRaf = requestAnimationFrame(step);
+    try { navigator.vibrate && navigator.vibrate(8); } catch (_) {}
+  };
+  holdEnd = () => {
+    if (!this.holdRaf) return;
+    cancelAnimationFrame(this.holdRaf); this.holdRaf = null;
+    this.setState({ holding: false });
+    const fill = this.holdRef.current;
+    if (fill) { fill.style.transition = 'transform .4s cubic-bezier(.32,.72,0,1)'; fill.style.transform = 'scaleX(0)'; }
+  };
+  finishHold() {
+    const s = this.state, di = s.planDur, pr = this.PRICES[s.planType][di], m = this.DURS[di];
+    try { navigator.vibrate && navigator.vibrate([12, 40, 18]); } catch (_) {}
+    if (s.balance >= pr) {
+      const now = this.nowLabel();
+      this.sfx('success');
+      this.setState(st => ({ holding: false, confirm: 'success', balance: st.balance - pr, sub: { type: st.planType, m }, coins: st.coins + 100 * m,
+        tx: [{ inc: false, name: `Premium · ${st.planType}, ${m} oy`, date: now, amt: pr }, ...st.tx],
+        ctx: [{ inc: true, name: 'Oylik tarif uchun bonus', date: now, amt: 100 * m }, ...st.ctx] }));
+    } else { this.sfx('error'); this.setState({ holding: false, confirm: 'insufficient' }); }
+  }
+  dragStart(ref, close) {
+    return e => { const el = ref.current; if (!el) return; this.drag = { y: e.clientY, dy: 0, el, close }; try { e.currentTarget.setPointerCapture(e.pointerId); } catch (_) {} el.style.transition = 'none'; };
+  }
+  dragMove = e => { const d = this.drag; if (!d) return; d.dy = e.clientY - d.y; d.el.style.transform = `translateY(${d.dy > 0 ? d.dy : d.dy * 0.15}px)`; };
+  dragEnd = () => {
+    const d = this.drag; if (!d) return; this.drag = null;
+    d.el.style.transition = 'transform .5s cubic-bezier(.32,.72,0,1)';
+    if (d.dy > 110) d.close(); else d.el.style.transform = 'translateY(0px)';
+  };
+  openPay(kind, amount) {
+    const mins = this.props.payMinutes ?? 30;
+    this.setState({ pay: { kind, base: amount, exact: amount + 1 + Math.floor(Math.random() * 999), exp: Date.now() + mins * 60000, total: mins * 60000 }, payShown: true, now: Date.now(), copied: null });
+  }
+  setCopied(k) { clearTimeout(this.cpT); this.setState({ copied: k }); this.cpT = setTimeout(() => this.setState({ copied: null }), 1600); }
+  payPrimary = () => {
+    const s = this.state, p = s.pay; if (!p) return;
+    if (Date.now() >= p.exp) return this.openPay(p.kind, p.base);
+    this.closePay();
+    if (p.kind === 'topup') {
+      this.toast('Toʻlov tekshirilmoqda');
+      setTimeout(() => { this.setState(st => ({ balance: st.balance + p.exact, tx: [{ inc: true, name: 'Hisob toʻldirildi', date: this.nowLabel(), amt: p.exact }, ...st.tx] })); this.toast(`Balans toʻldirildi · +${this.fmt(p.exact)} soʻm`); }, 4200);
+    } else {
+      this.toast('Rahmat! Donat tekshirilmoqda');
+      const nm = (s.donNote.match(/^(.+?) uchun/) || [])[1] || 'FilasofTV';
+      setTimeout(() => this.setState(st => ({ donNote: '', tx: [{ inc: false, name: `Donat · ${nm}`, date: this.nowLabel(), amt: p.exact }, ...st.tx] })), 4200);
+    }
+  };
+  retryAcct = () => { if (this.state.acctLoading) return; this.setState({ acctLoading: true }); setTimeout(() => this.setState({ acctLoading: false, acctErr: false }), 1100); };
+  retryCatalog = () => { this.setState({ catalog: 'loading' }); setTimeout(() => this.setState({ catalog: 'ok' }), 1100); };
+
+  renderVals() {
+    const s = this.state, p = this.props, sc = s.screen.name, I = (n, z, c, w) => this.icon(n, z, c, w);
+    const fmt = n => this.fmt(n), som = n => this.som(n), C = this.CAT, E = 'cubic-bezier(.32,.72,0,1)';
+    const topBar = p.showTopBar ?? true;
+    const star = I('star', 11, 'var(--gold, #F0B94A)');
+    const card = c => ({ title: c.title, art: this.art(c), premium: c.premium, isNew: c.isNew, rating: c.rating.toFixed(1), meta: `${this.TM[c.type]} · ${c.year}`, star, open: () => this.openContent(c.id) });
+    const seg = (labels, idx, set) => labels.map((l, i) => ({ label: l, color: i === idx ? 'var(--tx, #F5F3F1)' : 'var(--m2, #8E8A86)', go: () => set(i) }));
+    const subLabel = s.sub ? `${s.sub.type} · ${s.sub.m} oy` : '';
+    const kbd = s.kbd;
+
+    const HERO = { 'kumush-tun': ['u2', 'center 30%'], 'shamol': ['u4', 'center 18%'], 'oy-ostida': ['1514565131-fce0801e5785', 'center 60%'] };
+    const hero = Object.keys(HERO).map(id => {
+      const c = this.byId(id), sv = s.saved.includes(id);
+      const hi = this.imgUrl(HERO[id][0]);
+      return { title: c.title, art: `linear-gradient(180deg, rgba(10,8,14,0.35), rgba(10,8,14,0) 30%, rgba(10,8,14,0) 45%, rgba(10,8,14,0.55)), url("${hi.u}") ${HERO[id][1]}/cover no-repeat, #111`, typeU: c.type, rating: c.rating.toFixed(1), year: c.year, star: I('star', 13, 'var(--gold, #F0B94A)'), playIc: I('play', 18, '#fff'), saveIc: I(sv ? 'bookmarkF' : 'bookmark', 18, '#fff'), saveLabel: sv ? 'Saqlangan' : 'Saqlash', open: () => this.openContent(id), save: () => this.toggleSave(id) };
+    });
+    const dots = (n, idx, go) => Array.from({ length: n }, (_, i) => ({ w: i === idx ? '22px' : '6px', bg: i === idx ? '#E5262D' : 'rgba(var(--ln, 255,255,255),0.22)', go: () => go(i) }));
+    const cont = Object.keys(s.progress).map(id => {
+      const c = this.byId(id), pr = s.progress[id];
+      return { title: c.title, frame: this.art(c, 1), pct: Math.round(pr.prog * 100) + '%', sub: `${pr.ep + 1}-qism · ${Math.max(1, Math.round(this.epMin(c) * (1 - pr.prog)))} daq qoldi`, playIc: I('play', 16, '#fff'), open: () => this.openContent(id, pr.ep) };
+    });
+    const shelves = [
+      { title: 'Yangi qoʻshilganlar', items: C.filter(c => c.isNew).map(card), all: () => this.goMain('search', { cat: 'Barchasi', filter: 'Yangi', q: '' }) },
+      { title: 'Mashhur animelar', items: C.filter(c => c.type === 'ANIME').map(card), all: () => this.goMain('search', { cat: 'Anime', filter: null, q: '' }) },
+      { title: 'Kino va dramalar', items: C.filter(c => c.type === 'KINO' || c.type === 'DRAMA').map(card), all: () => this.goMain('search', { cat: 'Kino', filter: null, q: '' }) }
+    ];
+
+    let res = C;
+    if (s.cat !== 'Barchasi') res = res.filter(c => this.TM[c.type] === s.cat);
+    const q = s.q.trim().toLowerCase(); if (q) res = res.filter(c => c.title.toLowerCase().includes(q));
+    const f = s.filter;
+    if (f === 'Yangi') res = res.filter(c => c.isNew); if (f === 'Mashhur') res = res.filter(c => c.popular);
+    if (f === 'Bepul') res = res.filter(c => !c.premium); if (f === 'Saqlangan') res = res.filter(c => s.saved.includes(c.id));
+    const catOk = s.catalog === 'ok';
+
+    // content
+    const c = sc === 'content' ? this.byId(s.screen.id) : C[0];
+    const pr = s.progress[c.id];
+    const epList = c.film ? [{ label: 'Toʻliq film', dur: `${Math.floor(c.mins / 60)}:${String(c.mins % 60).padStart(2, '0')}:00` }, { label: 'Treyler', dur: '2:31' }]
+      : Array.from({ length: c.eps }, (_, i) => ({ label: `${i + 1}-qism`, dur: `${c.epMin + (i % 3 === 1 ? 1 : 0)}:${String((i * 17 + 7) % 60).padStart(2, '0')}` }));
+    const eps = epList.map((e, i) => {
+      const sel = s.selEp === i, watched = !c.film && pr && i < pr.ep, partial = !c.film && pr && i === pr.ep;
+      return { ...e, frame: this.art(c, i), ring: sel ? '0 0 0 2px #E5262D' : 'inset 0 0 0 1px rgba(var(--ln, 255,255,255),0.06)', labelColor: sel ? 'var(--tx, #F5F3F1)' : 'var(--m1, #A19D99)', watched: !!watched, checkIc: I('check', 12, 'var(--green, #34C77B)', 2.6), hasProg: !!(watched || partial), pct: watched ? '100%' : partial ? Math.round(pr.prog * 100) + '%' : '0%', go: () => this.setState({ selEp: i }) };
+    });
+    const locked = !this.covers(c), sv = s.saved.includes(c.id);
+    const ctLabel = locked ? 'Premium bilan tomosha qilish' : c.film ? (s.selEp === 0 ? 'Tomosha qilish' : 'Treylerni koʻrish') : `Tomosha qilish · ${s.selEp + 1}-qism`;
+    const ct = {
+      art: this.art(c), title: c.title, typeU: c.type, access: c.premium ? 'PREMIUM' : 'BEPUL', accessBg: c.premium ? '#E5262D' : 'var(--tx, #F5F3F1)', accessFg: c.premium ? '#fff' : 'var(--bg, #0C0C0D)',
+      star: I('star', 14, 'var(--gold, #F0B94A)'), rating: c.rating.toFixed(1), year: c.year, age: c.age, volume: c.film ? `${Math.floor(c.mins / 60)} soat ${c.mins % 60} daq` : `${c.eps} qism`,
+      genres: c.genres.map(g => ({ g })), saveIc: I(sv ? 'bookmarkF' : 'bookmark', 22, sv ? '#E5262D' : 'currentColor'), saveLabel: sv ? 'Saqlangan' : 'Saqlash', saveColor: sv ? 'var(--rt, #FF5A5F)' : 'var(--tx, #F5F3F1)',
+      save: () => this.toggleSave(c.id),
+      donate: () => this.goMain('premium', { premTab: 'donate', donNote: `${c.title} uchun` }),
+      share: () => { const url = `https://t.me/FilasofTVbot/app?startapp=${c.id}`; this.copy(`${c.title} — ${url}`); this.toast('Havola nusxalandi'); },
+      epsTitle: c.film ? 'Videolar' : 'Qismlar', epsCount: `${epList.length} ta`, eps,
+      frames: [0, 1, 2].map(v => ({ art: this.art(c, v + 1) })),
+      desc: c.desc, descMaxH: s.descOpen ? '600px' : '4.65em', descFadeO: s.descOpen ? 0 : 1, descBtn: s.descOpen ? 'Yigʻish' : 'Batafsil', toggleDesc: () => this.setState({ descOpen: !s.descOpen }),
+      info: [['Janr', c.genres.join(', ')], ['Davlat', c.country], ['Til', 'Oʻzbek tilida'], ['Yosh chegarasi', c.age], ['Kirish', c.premium ? 'Premium obuna' : 'Bepul']].map(([k, v], i) => ({ k, v, bt: i ? '1px solid rgba(var(--ln, 255,255,255),0.06)' : 'none' }))
+    };
+    const ctMain = () => {
+      if (locked) return this.goMain('premium', { premTab: 'plans', planType: { ANIME: 'Anime', DRAMA: 'Drama', KINO: 'Kino', SERIAL: 'Barchasi' }[c.type] });
+      this.toast(c.film ? (s.selEp === 0 ? 'Film ochilmoqda' : 'Treyler ochilmoqda') : `${s.selEp + 1}-qism ochilmoqda`);
+    };
+
+    // premium
+    const pt = s.planType, di = s.planDur, price = this.PRICES[pt][di], m = this.DURS[di];
+    const premIdx = ['plans', 'balance', 'gift', 'donate'].indexOf(s.premTab);
+    const planTypes = [['Anime', 'Faqat animelar'], ['Drama', 'Faqat dramalar'], ['Kino', 'Faqat kinolar'], ['Barchasi', 'Anime, drama, kino']].map(([n, sub]) => {
+      const on = pt === n;
+      return { name: n, sub, bd: on ? '#E5262D' : 'rgba(var(--ln, 255,255,255),0.08)', bg: on ? 'rgba(229,38,45,0.1)' : 'var(--s1, #161618)', dotBd: on ? '#E5262D' : 'rgba(var(--ln, 255,255,255),0.25)', dotBg: on ? '#E5262D' : 'transparent', checkIc: I('check', 12, on ? '#fff' : 'transparent', 2.6), go: () => this.setState({ planType: n }) };
+    });
+    const typeDesc = { Anime: 'Barcha pullik animelar ochiladi.', Drama: 'Barcha pullik dramalar ochiladi.', Kino: 'Barcha pullik kinolar ochiladi.', Barchasi: 'Bitta obuna bilan barcha pullik film, multfilm, serial va animelar.' }[pt];
+    const durs = [0, 1, 2].map(i => {
+      const mm = this.DURS[i], prc = this.PRICES[pt][i], save = Math.round((1 - prc / (this.PRICES[pt][0] * mm)) * 100), pm = Math.round(prc / mm / 100) * 100, on = di === i;
+      return { name: `${mm} oy`, sub: i === 0 ? 'Har oy yangilanadi' : i === 1 ? `Oyiga arzonroq · −${save}%` : `Eng katta tejash · −${save}%`, best: i === 2, price: som(prc), per: i === 0 ? 'oyiga' : `${fmt(pm)} / oy`,
+        bd: on ? '#E5262D' : 'rgba(var(--ln, 255,255,255),0.08)', bg: on ? 'rgba(229,38,45,0.1)' : 'var(--s1, #161618)', radioBd: on ? '#E5262D' : 'rgba(var(--ln, 255,255,255),0.25)', radioS: on ? 1 : 0, go: () => this.setState({ planDur: i }) };
+    });
+    const quick = (vals, cur, set) => vals.map(v => { const on = Number(cur) === v; return { label: fmt(v), bd: on ? '#E5262D' : 'rgba(var(--ln, 255,255,255),0.08)', bg: on ? 'rgba(229,38,45,0.12)' : 'var(--s1, #161618)', fg: on ? 'var(--rt, #FF5A5F)' : 'var(--t3, #D9D5D1)', go: () => set(String(v)) }; });
+    const bn = Number(s.balInput || 0), balOk = bn >= 1000 && bn <= 10000000;
+    const balHint = !s.balInput ? 'Minimal 1 000, maksimal 10 000 000 soʻm' : bn < 1000 ? 'Minimal miqdor 1 000 soʻm' : bn > 10000000 ? 'Maksimal miqdor 10 000 000 soʻm' : `Toʻldirilgandan soʻng: ${som(s.balance + bn)}`;
+    const balErr = !!s.balInput && !balOk;
+    const giftNeed = Math.max(0, 2700 - s.coins), giftPct = Math.min(100, Math.round(s.coins / 2700 * 100)) + '%';
+    const giftHint = giftNeed > 0 ? `Sovgʻa uchun yana ${fmt(giftNeed)} coin kerak.` : s.giftUser.length < 4 ? 'Username kamida 4 belgidan iborat.' : 'Doʻstingiz bildirishnoma oladi.';
+    const giftOk = giftNeed === 0 && s.giftUser.length >= 4;
+    const dn = Number(s.donAmt || 0), donOk = dn >= 1000 && dn <= 10000000;
+
+    // confirm
+    const cf = s.confirm, enough = s.balance >= price;
+    const cfMap = {
+      step1: ['Obunani tekshiring', 'Tarif, muddat va narx toʻgʻriligiga ishonch hosil qiling.'],
+      step2: ['Xaridni tasdiqlang', `${som(price)} balansingizdan yechiladi. Tasdiqlash uchun tugmani bosib turing.`],
+      insufficient: ['Balans yetarli emas', `Yana ${som(Math.max(0, price - s.balance))} kerak. Balansni toʻldirib, xaridni yakunlang.`],
+      success: ['Obuna faollashtirildi', s.sub ? `${s.sub.type} tarifi ${s.sub.m} oyga yoqildi. Yoqimli tomosha!` : '']
+    };
+    const cfT = cfMap[cf] || ['', ''];
+    const cfBalOk = cf === 'success' ? true : enough;
+
+    // pay
+    const py = s.pay, rem = py ? Math.max(0, py.exp - s.now) : 0, expired = py && rem <= 0, warn = rem < 5 * 60000;
+    const timerColor = expired ? 'var(--m2, #8E8A86)' : warn ? 'var(--amber, #FFB23E)' : 'var(--green, #34C77B)';
+    const cpBtn = k => { const on = s.copied === k; return { bg: on ? 'rgba(52,199,123,0.16)' : 'var(--s5, #2A2A2E)', fg: on ? 'var(--green, #34C77B)' : 'var(--tx, #F5F3F1)', ic: I(on ? 'check' : 'copy', 15, on ? 'var(--green, #34C77B)' : 'currentColor', 2), label: on ? 'Nusxalandi' : 'Nusxalash' }; };
+    const ca = cpBtn('amt'), cc = cpBtn('card');
+
+    // profile
+    const menu = [
+      { label: 'Hisob', rows: [
+        { icon: I('wallet', 18), title: 'Balansni toʻldirish', sub: 'Karta orqali tez toʻlov', value: som(s.balance), go: () => this.goMain('premium', { premTab: 'balance' }) },
+        { icon: I('crown', 18), title: 'Mening tarifim', sub: s.sub ? subLabel : 'Obuna yoʻq', value: '', go: () => this.goMain('premium', { premTab: 'plans' }) },
+        { icon: I('receipt', 18), title: 'Moliya tarixi', sub: 'Balans va coin harakatlari', value: '', go: () => this.push({ name: 'finance' }, { finTab: 0 }) }] },
+      { label: 'Kontent', rows: [{ icon: I('library', 18), title: 'Kutubxona', sub: 'Saqlangan va koʻrilganlar', value: String(s.saved.length), go: () => this.push({ name: 'library' }, { libTab: 0 }) }] },
+      { label: 'Bonuslar', rows: [
+        { icon: I('invite', 18), title: 'Doʻstlarni taklif qilish', sub: 'Shaxsiy havolani ulashing', value: '', go: () => { this.copy('https://t.me/FilasofTVbot?start=ref_6120459873'); this.toast('Taklif havolasi nusxalandi'); } },
+        { icon: I('coin', 18), ic: 'var(--gold, #F0B94A)', title: 'Bonus coinlar', sub: 'Coin yigʻish va bonus kod', value: '', go: () => this.push({ name: 'coins' }) },
+        { icon: I('gift', 18), title: 'Doʻstga sovgʻa', sub: '2 700 coin = 1 oylik tarif', value: '', go: () => this.goMain('premium', { premTab: 'gift' }) }] },
+      { label: 'Yordam', rows: [{ icon: I('help', 18), title: 'Qoʻllab-quvvatlash', sub: 'Savollar va operator', value: '', go: () => this.push({ name: 'help' }, { faq: -1 }) }] }
+    ].map(g => ({ ...g, rows: g.rows.map((r, i) => ({ ic: 'var(--tx, #F5F3F1)', ...r, bt: i ? '1px solid rgba(var(--ln, 255,255,255),0.05)' : 'none' })) }));
+
+    const coinRows = [
+      { icon: I('crown', 18), title: 'Oylik tarif xaridi', sub: 'Har oy uchun', badge: '+100', bBg: 'rgba(240,185,74,0.15)', bFg: 'var(--gold, #F0B94A)', o: 1, cursor: 'pointer', go: () => this.goMain('premium', { premTab: 'plans' }) },
+      { icon: I('calendar', 18), title: 'Kunlik bonus', sub: 'Ertaga yana olishingiz mumkin', badge: 'Olindi', bBg: 'var(--s4, #232326)', bFg: 'var(--m2, #8E8A86)', o: 0.6, cursor: 'default', go: () => {} },
+      { icon: I('invite', 18), title: 'Doʻstlarni taklif qilish', sub: 'Havolani nusxalash', badge: 'Ulashish', bBg: 'rgba(229,38,45,0.15)', bFg: 'var(--rt, #FF5A5F)', o: 1, cursor: 'pointer', go: () => { this.copy('https://t.me/FilasofTVbot?start=ref_6120459873'); this.toast('Taklif havolasi nusxalandi'); } }
+    ].map((r, i) => ({ ...r, bt: i ? '1px solid rgba(var(--ln, 255,255,255),0.05)' : 'none' }));
+
+    const finList = s.finTab === 0 ? s.tx : s.ctx;
+    const finRows = finList.map((r, i) => ({ name: r.name, date: r.date, icon: I(r.inc ? 'arrIn' : 'arrOut', 17, 'currentColor', 2), icBg: r.inc ? 'rgba(52,199,123,0.14)' : 'var(--s4, #232326)', icFg: r.inc ? 'var(--green, #34C77B)' : 'var(--t3, #D9D5D1)', color: r.inc ? 'var(--green, #34C77B)' : 'var(--tx, #F5F3F1)', amt: s.finTab === 0 ? `${r.inc ? '+' : '−'}${fmt(r.amt)}` : `${r.inc ? '+' : '−'}${fmt(r.amt)} coin`, bt: i ? '1px solid rgba(var(--ln, 255,255,255),0.05)' : 'none' }));
+
+    const libItems = s.libTab === 0
+      ? s.saved.map(id => { const x = this.byId(id); return { title: x.title, art: this.art(x), meta: `${this.TM[x.type]} · ${x.year}`, hasProg: false, pct: '0%', open: () => this.openContent(id) }; })
+      : Object.keys(s.progress).map(id => { const x = this.byId(id), r = s.progress[id]; return { title: x.title, art: this.art(x), meta: `${r.ep + 1}-qism`, hasProg: true, pct: Math.round(r.prog * 100) + '%', open: () => this.openContent(id, r.ep) }; });
+
+    const faqData = [
+      ['Toʻlov qachon hisobga tushadi?', 'Aniq summani oʻtkazganingizdan soʻng odatda 1–5 daqiqa ichida balans avtomatik toʻldiriladi.'],
+      ['Nega aynan koʻrsatilgan summani toʻlash kerak?', 'Har bir toʻlovga noyob summa beriladi. Shu orqali tizim toʻlovingizni avtomatik aniqlaydi. 1 soʻm farq ham tekshiruvni toʻxtatadi.'],
+      ['Obuna avtomatik yangilanadimi?', 'Yoʻq. Muddat tugagach, xohlasangiz obunani qayta rasmiylashtirasiz.']
+    ];
+
+    const tabIdx = this.MAIN.indexOf(s.tab);
+    const navItems = [['home', 'Asosiy', 'home'], ['search', 'Qidiruv', 'search'], ['premium', 'Premium', 'crown'], ['profile', 'Profil', 'user']].map(([k, l, ic], i) => ({ label: l, icon: I(ic, 23, 'currentColor', i === tabIdx ? 2.1 : 1.8), color: i === tabIdx ? 'var(--rt, #FF4A50)' : 'var(--m2, #8E8A86)', go: () => this.onTab(k) }));
+    const titles = { search: 'Qidiruv', profile: 'Profil', coins: 'Bonus coinlar', finance: 'Moliya tarixi', library: 'Kutubxona', help: 'Yordam', content: c.title };
+    const showPanel = sc === 'premium' && s.premTab === 'plans' && !kbd && !s.cfShown;
+    const sheetOpen = s.cfShown || s.payShown;
+
+    return {
+      splash: s.splash ? this.splashEl() : null,
+      frameMaxH: s.wide ? '900px' : 'none', frameRadius: s.wide ? '32px' : '0px', frameShadow: s.wide ? '0 0 0 1px rgba(var(--ln, 255,255,255),0.06), 0 40px 120px rgba(0,0,0,0.7)' : 'none',
+      showTopBar: topBar, topLeftIcon: I(sc === 'home' ? 'close' : 'back', 18), topLeftLabel: sc === 'home' ? 'Yopish' : 'Orqaga', onTopLeft: () => { if (sc !== 'home' || sheetOpen) this.back(); },
+      logoTiny: this.logo(18, '#E5262D'), logoTinyRed: this.logo(14, 'var(--rt, #FF5A5F)'), logoTinyMuted: this.logo(14, 'var(--m3, #74706C)'), logoWhite: this.logo(24, '#fff'),
+      acctErr: s.acctErr, retryAcct: this.retryAcct, acctBtnLabel: s.acctLoading ? '…' : 'Qayta', acctBtnO: s.acctLoading ? 0.6 : 1,
+      mainRef: this.mainRef, scrollRef: this.scrollRef, heroRef: this.heroRef, framesRef: this.framesRef, epsRef: this.epsRef, cfRef: this.cfRef, payRef: this.payRef, holdRef: this.holdRef,
+      onScroll: this.onScroll, edgeStart: this.edgeStart, edgeMove: this.edgeMove, edgeEnd: this.edgeEnd,
+      isHome: sc === 'home', isSearch: sc === 'search', isContent: sc === 'content', isPremium: sc === 'premium', isProfile: sc === 'profile', isCoins: sc === 'coins', isFinance: sc === 'finance', isLibrary: sc === 'library', isHelp: sc === 'help',
+      icChevD: I('chevD', 18), icDots: I('dots', 18), icChevR: I('chevR', 20), icChevRsm: I('chevR', 16), icSearch: I('search', 19), icSearchLg: I('search', 26), icCloseXs: I('close', 12, 'var(--bg, #0C0C0D)', 2.6), icCloseSm: I('close', 16),
+      icAlert: I('alert', 17), icAlertLg: I('alert', 26), icCoinGold: I('coin', 17, 'var(--gold, #F0B94A)', 2), icCoinLg: I('coin', 34, 'var(--gold, #F0B94A)', 2), icWallet: I('wallet', 17, 'var(--t3, #D9D5D1)'), icHeart: I('heart', 22), icShare: I('share', 22), icClock: I('clock', 17),
+      icGift: I('gift', 22), icPhone: I('phone', 19), icCopyXs: I('copy', 13), icChat: I('chat', 22), icSend: I('send', 18), icLibraryLg: I('library', 26), icCheckDark: I('check', 17, 'var(--bg, #0C0C0D)', 2.6), icCheckLgDark: I('check', 32, 'var(--bg, #0C0C0D)', 2.8), icCheckXs: I('check', 13, '#fff', 2.8),
+      initial: s.acctErr ? '?' : 'J', firstName: s.acctErr ? 'Mehmon' : 'Javohir', fullName: 'Javohir Karimov', handle: '@javohir_k', idLabel: 'ID 6120459873',
+      coinsFmt: fmt(s.coins), balanceFmt: som(s.balance),
+      goProfile: () => this.goMain('profile'), goCoins: () => this.push({ name: 'coins' }, { coinTab: 0 }), goBalance: () => this.goMain('premium', { premTab: 'balance' }), goPlans: () => this.goMain('premium', { premTab: 'plans' }),
+      goGift: () => this.goMain('premium', { premTab: 'gift' }), goFinance: () => this.push({ name: 'finance' }, { finTab: 0 }),
+      hero, heroDots: dots(3, s.heroIdx, i => this.goHero(i)), onHeroScroll: this.onHeroScroll, pauseHero: this.pauseHero,
+      noSub: !s.sub, showCont: catOk && cont.length > 0, cont, catOk, shelves,
+      q: s.q, hasQ: !!s.q, onQ: e => this.setState({ q: e.target.value }), clearQ: () => this.setState({ q: '' }),
+      kbdOn: () => this.setState({ kbd: true }), kbdOff: () => this.setState({ kbd: false }),
+      cats: ['Barchasi', 'Anime', 'Drama', 'Serial', 'Kino'].map(x => ({ label: x, bg: x === s.cat ? 'var(--tx, #F5F3F1)' : 'var(--s2, #18181B)', fg: x === s.cat ? 'var(--bg, #0C0C0D)' : 'var(--t3, #D9D5D1)', go: () => this.setState({ cat: x }) })),
+      filters: ['Yangi', 'Mashhur', 'Bepul', 'Saqlangan'].map(x => { const on = s.filter === x; return { label: x, bg: on ? 'rgba(229,38,45,0.14)' : 'transparent', bd: on ? 'rgba(229,38,45,0.6)' : 'rgba(var(--ln, 255,255,255),0.12)', fg: on ? 'var(--rt, #FF5A5F)' : 'var(--m1, #A19D99)', go: () => this.setState({ filter: on ? null : x }) }; }),
+      resultLabel: s.catalog === 'loading' ? 'Yuklanmoqda…' : s.catalog === 'error' ? 'Katalog yuklanmadi' : `${res.length} ta natija`,
+      canClear: catOk && (s.cat !== 'Barchasi' || !!s.filter || !!s.q), clearAll: () => this.setState({ cat: 'Barchasi', filter: null, q: '' }),
+      sLoading: s.catalog === 'loading', sError: s.catalog === 'error', sEmpty: catOk && res.length === 0, sHas: catOk && res.length > 0,
+      results: res.map(card), skel: [1, 2, 3, 4, 5, 6], retryCatalog: this.retryCatalog,
+      ct, frameDots: dots(3, s.frameIdx, i => this.goFrame(i)), onFramesScroll: this.onFramesScroll,
+      ctMain, ctMainLabel: ctLabel, ctMainIcon: I(locked ? 'crown' : 'play', 19, '#fff', 2),
+      ctaT: sc === 'content' && !kbd ? 'translateY(0)' : 'translateY(120%)', ctaPE: sc === 'content' ? 'auto' : 'none',
+      premPadB: s.premTab === 'plans' ? '220px' : '120px', premThumbX: `${premIdx * 100}%`,
+      premTabs: seg(['Tariflar', 'Balans', 'Sovgʻa', 'Donat'], premIdx, i => this.setState({ premTab: ['plans', 'balance', 'gift', 'donate'][i] })),
+      isPlans: s.premTab === 'plans', isBalance: s.premTab === 'balance', isGift: s.premTab === 'gift', isDonate: s.premTab === 'donate',
+      hasSub: !!s.sub, subLabel, planTypes, typeDesc, durs, planSummary: `${pt} · ${m} oy`, planPriceFmt: som(price), openConfirm: this.openConfirm,
+      panelT: showPanel ? 'translateY(0)' : 'translateY(calc(100% + 100px))', panelO: showPanel ? 1 : 0, panelPE: showPanel ? 'auto' : 'none',
+      balDisplay: s.balInput ? fmt(Number(s.balInput)) : '', onBalInput: e => this.setState({ balInput: e.target.value.replace(/\D/g, '').slice(0, 8) }),
+      balQuick: quick([27000, 50000, 100000, 250000], s.balInput, v => this.setState({ balInput: v })), balHint, balHintColor: balErr ? 'var(--rt, #FF5A5F)' : 'var(--m1, #A19D99)', balBd: balErr ? 'rgba(229,38,45,0.7)' : 'rgba(var(--ln, 255,255,255),0.08)',
+      balBtnO: balOk ? 1 : 0.4, balBtnPE: balOk ? 'auto' : 'none', balContinue: () => this.openPay('topup', bn),
+      giftProgLabel: `${fmt(s.coins)} / 2 700 coin`, giftPct, giftUser: s.giftUser, giftHint, giftHintColor: giftOk ? 'var(--green, #34C77B)' : 'var(--m1, #A19D99)',
+      onGiftUser: e => this.setState({ giftUser: e.target.value.replace(/^@+/, '').replace(/[^A-Za-z0-9_]/g, '').slice(0, 32) }),
+      giftBtnO: giftOk ? 1 : 0.4, giftBtnPE: giftOk ? 'auto' : 'none',
+      sendGift: () => { const u = s.giftUser; this.setState(st => ({ coins: st.coins - 2700, giftUser: '', ctx: [{ inc: false, name: `Sovgʻa · @${u}`, date: this.nowLabel(), amt: 2700 }, ...st.ctx] })); this.toast('Sovgʻa yuborildi'); },
+      donDisplay: s.donAmt ? fmt(Number(s.donAmt)) : '', onDonAmt: e => this.setState({ donAmt: e.target.value.replace(/\D/g, '').slice(0, 8) }),
+      donQuick: quick([5000, 10000, 25000, 50000], s.donAmt, v => this.setState({ donAmt: v })),
+      donHint: dn < 1000 ? 'Minimal donat 1 000 soʻm' : 'Har qanday summa qadrlanadi', donHintColor: dn < 1000 ? 'var(--rt, #FF5A5F)' : 'var(--m1, #A19D99)', donBd: dn < 1000 ? 'rgba(229,38,45,0.7)' : 'rgba(var(--ln, 255,255,255),0.08)',
+      donNote: s.donNote, onDonNote: e => this.setState({ donNote: e.target.value.slice(0, 300) }), donCount: `${s.donNote.length} / 300`,
+      donBtnO: donOk ? 1 : 0.4, donBtnPE: donOk ? 'auto' : 'none', donContinue: () => this.openPay('donate', dn),
+      pStats: [['Balans', som(s.balance), () => this.goMain('premium', { premTab: 'balance' })], ['Coin', fmt(s.coins), () => this.push({ name: 'coins' }, { coinTab: 0 })], ['Tarif', s.sub ? s.sub.type : 'Yoʻq', () => this.goMain('premium', { premTab: 'plans' })]].map(([label, value, go]) => ({ label, value, go })),
+      copyId: () => { this.copy('6120459873'); this.toast('ID nusxalandi'); },
+      showPhone: !s.phoneShared, sharePhone: () => { if (topBar) this.toast('Telegram ichida oching'); else { this.setState({ phoneShared: true }); this.toast('Raqam ulashildi'); } },
+      rootRef: this.rootRef, themeThumbX: `${['dark', 'light', 'auto'].indexOf(s.theme || 'dark') * 100}%`,
+      themes: [['dark', 'Tungi', 'moon'], ['light', 'Kunduzgi', 'sun'], ['auto', 'Avtomatik', 'auto']].map(([k, l, ic]) => ({ label: l, icon: I(ic, 16), color: (s.theme || 'dark') === k ? 'var(--tx, #F5F3F1)' : 'var(--m2, #8E8A86)', go: () => this.setTheme(k) })),
+      menu, langThumbX: s.lang === 'uz' ? '0%' : '100%', langs: seg(['Oʻzbekcha', 'Русский'], s.lang === 'uz' ? 0 : 1, i => this.setState({ lang: i ? 'ru' : 'uz' })),
+      coinGiftLabel: `Sovgʻagacha ${fmt(Math.min(s.coins, 2700))} / 2 700`, coinThumbX: `${s.coinTab * 100}%`, coinTabs: seg(['Coin yigʻish', 'Bonus kod'], s.coinTab, i => this.setState({ coinTab: i })),
+      coinCollect: s.coinTab === 0, coinCode: s.coinTab === 1, coinRows,
+      code: s.code, onCode: e => this.setState({ code: e.target.value.toUpperCase().replace(/\s/g, '').slice(0, 20) }),
+      codeBtnO: s.code.length >= 4 ? 1 : 0.4, codeBtnPE: s.code.length >= 4 ? 'auto' : 'none',
+      activateCode: () => {
+        if (s.code === 'FILASOV2026' && !s.codeUsed) { this.setState(st => ({ coins: st.coins + 1000, code: '', codeUsed: true, ctx: [{ inc: true, name: 'Bonus kod · FILASOV2026', date: this.nowLabel(), amt: 1000 }, ...st.ctx] })); this.toast('Kod faollashtirildi · +1 000 coin'); }
+        else this.toast('Bunday kod topilmadi');
+      },
+      finThumbX: `${s.finTab * 100}%`, finTabs: seg(['Balans', 'Coin'], s.finTab, i => this.setState({ finTab: i })), finRows, finHas: finRows.length > 0, finEmpty: finRows.length === 0,
+      libThumbX: `${s.libTab * 100}%`, libTabs: seg(['Saqlanganlar', 'Koʻrilganlar'], s.libTab, i => this.setState({ libTab: i })), libItems, libHas: libItems.length > 0, libEmpty: libItems.length === 0,
+      libEmptyText: s.libTab === 0 ? 'Saqlangan kontent yoʻq' : 'Hali hech narsa koʻrilmagan', openCatalog: () => this.goMain('search'),
+      writeOperator: () => this.toast('Telegram’da bot chati ochilmoqda'),
+      faqs: faqData.map(([qq, a], i) => ({ q: qq, a, bt: i ? '1px solid rgba(var(--ln, 255,255,255),0.05)' : 'none', rows: s.faq === i ? '1fr' : '0fr', rot: s.faq === i ? '180deg' : '0deg', go: () => this.setState({ faq: s.faq === i ? -1 : i }) })),
+      compactO: s.compact ? 1 : 0, compactY: s.compact ? '0' : '-8px', compactTitle: titles[sc] || '',
+      navItems, navThumbX: `${tabIdx * 100}%`, navT: sc === 'content' || kbd ? 'translateY(120%)' : 'translateY(0)',
+      toastText: s.toastText, toastO: s.toastOn ? 1 : 0, toastY: s.toastOn ? '0' : '-140%', toastS: s.toastOn ? 1 : 0.9,
+      scrimO: sheetOpen ? 1 : 0, scrimPE: sheetOpen ? 'auto' : 'none', closeSheets: () => { if (s.payShown) this.closePay(); else this.closeConfirm(); },
+      cfT: s.cfShown ? 'translateY(0)' : 'translateY(calc(100% + 40px))',
+      cfDragStart: this.dragStart(this.cfRef, this.closeConfirm), payDragStart: this.dragStart(this.payRef, this.closePay), dragMove: this.dragMove, dragEnd: this.dragEnd,
+      cfSteps: cf === 'step1' || cf === 'step2', cfDot2: cf === 'step2' ? '#E5262D' : 'rgba(var(--ln, 255,255,255),0.15)', cfSuccess: cf === 'success',
+      cfIs1: cf === 'step1', cfIs2: cf === 'step2', cfIsIns: cf === 'insufficient', cfCancel: cf === 'step1' || cf === 'step2',
+      cfTitle: cfT[0], cfText: cfT[1], cfType: cf === 'success' && s.sub ? s.sub.type : pt, cfDur: `${m} oy`, cfPrice: som(price),
+      cfBalColor: cfBalOk ? 'var(--green, #34C77B)' : 'var(--rt, #FF5A5F)', cfBalTagBg: cfBalOk ? 'rgba(52,199,123,0.14)' : 'rgba(229,38,45,0.14)', cfBalTag: cf === 'success' ? 'Qoldiq' : enough ? 'Yetarli' : 'Yetarli emas',
+      cfNext: () => this.setState({ confirm: 'step2' }), holdStart: this.holdStart, holdEnd: this.holdEnd, prevent: e => e.preventDefault(),
+      holdLabel: s.holding ? 'Bosib turing…' : 'Tasdiqlash uchun bosib turing', holdScale: s.holding ? 0.98 : 1,
+      topUpNeed: () => { const need = Math.max(1000, price - s.balance); this.closeConfirm(); this.goMain('premium', { premTab: 'balance', balInput: String(need) }); },
+      startWatching: () => { this.closeConfirm(); this.goMain('home'); }, closeConfirm: this.closeConfirm,
+      payT: s.payShown ? 'translateY(0)' : 'translateY(calc(100% + 40px))', closePay: this.closePay,
+      payTitle: py && py.kind === 'donate' ? 'Donat' : 'Balansni toʻldirish', payBase: py ? `Kiritilgan summa: ${som(py.base)}` : '',
+      payExact: py ? som(py.exact) : '', payExactO: expired ? 0.35 : 1, payExactPE: expired ? 'none' : 'auto',
+      copyAmt: () => { if (expired || !py) return; this.copy(String(py.exact)); this.setCopied('amt'); }, copyAmtBg: ca.bg, copyAmtFg: ca.fg, copyAmtIc: ca.ic, copyAmtLabel: ca.label,
+      copyCard: () => { this.copy('8600312944170582'); this.setCopied('card'); }, copyCardBg: cc.bg, copyCardFg: cc.fg, copyCardIc: cc.ic, copyCardLabel: cc.label,
+      timerColor, timerText: `${String(Math.floor(rem / 60000)).padStart(2, '0')}:${String(Math.floor(rem / 1000) % 60).padStart(2, '0')}`, timerPct: py ? (rem / py.total * 100).toFixed(2) + '%' : '0%',
+      warnBg: expired ? 'rgba(229,38,45,0.12)' : 'rgba(255,178,62,0.1)', warnFg: expired ? 'var(--rt, #FF8A8E)' : 'var(--amber, #FFC46B)',
+      warnText: expired ? 'Vaqt tugadi. Yangi summa oling — eski summa endi qabul qilinmaydi.' : 'Faqat aynan shu summani oʻtkazing. 1 soʻm farq boʻlsa ham toʻlov avtomatik qabul qilinmaydi.',
+      payPrimary: this.payPrimary, payPrimaryLabel: expired ? 'Yangi summa olish' : 'Toʻladim'
+    };
+  }
+}
+</script>
+
+
+</body></html>
